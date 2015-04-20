@@ -20,9 +20,19 @@ body {
 }
 
 .table-container {
-	margin-top: 30px;
+	border: 2px solid;
+    border-radius: 25px;
 }
 
 .table-container > h4 {
 	font-weight: bolder;
+}
+
+#flashMessage {
+	background-color: #e3e3e3;
+	padding: 10px 10px 10px 90px;
+	margin-bottom: 20px;
+	margin-top: -50px;
+	color: #505050;
+	font-weight: bold;
 }
