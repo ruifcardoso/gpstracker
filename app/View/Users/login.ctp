@@ -33,25 +33,29 @@ echo $this->Form->create ( 'User', array (
 ?>
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
-		<fieldset><?php 
-echo $this->Form->inputs(array(
-		'legend' => __('Login'),
-		'username',
-		'password'
-));?>
+		<fieldset><?php
+		echo $this->Form->inputs ( array (
+				'legend' => __ ( 'Login' ),
+				'username',
+				'password' 
+		) );
+		?>
 </fieldset>
-<div class="no-margin col-md-12">
+		<div class="no-margin col-md-12">
 <?php
 echo $this->Form->end ( array (
 		'label' => __ ( 'Login' ),
 		'class' => 'btn btn-block',
 		'div' => array (
-				'class' => 'control-group '
+				'class' => 'control-group ' 
 		),
 		'before' => '<div class="controls" style="margin-top:20px;">',
-		'after' => '</div>'
+		'after' => '</div>' 
 ) );
-?>
-		</div>
-	</div>
+?>	</div>
+<div class="no-margin col-md-12">
+<?php echo $this->Html->link('Register', array('action'=>'add'), array('class' => 'btn btn-block btn-info'))?>	</p>
+</div>
+
+</div>
 </div>

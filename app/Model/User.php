@@ -33,6 +33,7 @@ class User extends AppModel {
 		);
 		return true;
 	}
+
 /**
  * Validation rules
  *
