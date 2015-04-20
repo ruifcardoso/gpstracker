@@ -1,0 +1,1897 @@
+2015-04-17 09:33:13 Error: Fatal Error (1): Class 'AppController' not found in [/home/cmdesktop/workspace/gpstracker/app/Controller/HomepagesController.php, line 10]
+2015-04-17 09:33:13 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/home/cmdesktop...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/home/cmdesktop...', 10, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/home/cmdesktop...', 10, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 09:33:16 Error: [MissingControllerException] Controller class HomepageController could not be found.
+Exception Attributes: array (
+  'class' => 'HomepageController',
+  'plugin' => NULL,
+)
+Request URL: /homepage
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 09:33:19 Error: Fatal Error (1): Class 'AppController' not found in [/home/cmdesktop/workspace/gpstracker/app/Controller/HomepagesController.php, line 10]
+2015-04-17 09:33:19 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/home/cmdesktop...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/home/cmdesktop...', 10, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/home/cmdesktop...', 10, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 09:35:14 Error: Fatal Error (1): Class 'AppController' not found in [/home/cmdesktop/workspace/gpstracker/app/Controller/HomepagesController.php, line 10]
+2015-04-17 09:35:14 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/home/cmdesktop...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/home/cmdesktop...', 10, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/home/cmdesktop...', 10, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 10:25:06 Error: Fatal Error (1): Call to undefined method View::elements() in [/home/cmdesktop/workspace/gpstracker/app/View/Layouts/default.ctp, line 46]
+2015-04-17 10:25:06 Error: [FatalErrorException] Call to undefined method View::elements()
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/cmdesktop...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/cmdesktop...', 46, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/cmdesktop...', 46, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 11:28:44 Error: [MissingControllerException] Controller class <aHref=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<aHref=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Ca%20href=
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 11:28:46 Error: [MissingControllerException] Controller class <aHref=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<aHref=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Ca%20href=
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 11:29:17 Error: [MissingControllerException] Controller class <aHref=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<aHref=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Ca%20href=
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 11:30:47 Error: [MissingControllerException] Controller class <aHref=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<aHref=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Ca%20href=
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 11:31:00 Error: [MissingControllerException] Controller class <aHref=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<aHref=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Ca%20href=
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 11:31:03 Error: [MissingControllerException] Controller class <aHref=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<aHref=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Ca%20href=
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 11:31:18 Error: [MissingControllerException] Controller class <aHref=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<aHref=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Ca%20href=
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 11:31:30 Error: [MissingControllerException] Controller class <aHref=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<aHref=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Ca%20href=
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 11:31:46 Error: [MissingControllerException] Controller class <aHref=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<aHref=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Ca%20href=
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 11:32:32 Error: [MissingControllerException] Controller class <aHref=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<aHref=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Ca%20href=
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 12:52:21 Error: [MissingControllerException] Controller class DemoengineController could not be found.
+Exception Attributes: array (
+  'class' => 'DemoengineController',
+  'plugin' => NULL,
+)
+Request URL: /demoengine/demoengine.min.js
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 12:52:21 Error: [MissingControllerException] Controller class DemoengineController could not be found.
+Exception Attributes: array (
+  'class' => 'DemoengineController',
+  'plugin' => NULL,
+)
+Request URL: /demoengine/demoengine.min.css
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 12:57:42 Error: [MissingControllerException] Controller class Jquery.datetimepicker.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery.datetimepicker.cssController',
+  'plugin' => NULL,
+)
+Request URL: /jquery.datetimepicker.css
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 12:57:42 Error: [MissingControllerException] Controller class Jquery.datetimepicker.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery.datetimepicker.jsController',
+  'plugin' => NULL,
+)
+Request URL: /jquery.datetimepicker.js
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 12:58:41 Error: [MissingControllerException] Controller class Jquery.datetimepicker.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery.datetimepicker.cssController',
+  'plugin' => NULL,
+)
+Request URL: /jquery.datetimepicker.css
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 12:58:41 Error: [MissingControllerException] Controller class Jquery.datetimepicker.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery.datetimepicker.jsController',
+  'plugin' => NULL,
+)
+Request URL: /jquery.datetimepicker.js
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 12:58:42 Error: [MissingControllerException] Controller class Jquery.datetimepicker.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery.datetimepicker.cssController',
+  'plugin' => NULL,
+)
+Request URL: /jquery.datetimepicker.css
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 12:58:42 Error: [MissingControllerException] Controller class Jquery.datetimepicker.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery.datetimepicker.jsController',
+  'plugin' => NULL,
+)
+Request URL: /jquery.datetimepicker.js
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 13:10:26 Error: Fatal Error (1): Call to undefined method PositionsController::element() in [/home/cmdesktop/workspace/gpstracker/app/Controller/PositionsController.php, line 53]
+2015-04-17 13:10:26 Error: [FatalErrorException] Call to undefined method PositionsController::element()
+Request URL: /positions/add
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/cmdesktop...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/cmdesktop...', 53, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/cmdesktop...', 53, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 13:11:11 Error: Fatal Error (1): Call to undefined method PositionsController::element() in [/home/cmdesktop/workspace/gpstracker/app/Controller/PositionsController.php, line 53]
+2015-04-17 13:11:11 Error: [FatalErrorException] Call to undefined method PositionsController::element()
+Request URL: /positions/add
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/cmdesktop...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/cmdesktop...', 53, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/cmdesktop...', 53, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 13:46:06 Error: [MissingTableException] Table features for model Feature was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'features',
+  'class' => 'Feature',
+  'ds' => 'default',
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Model/Model.php(3525): Model->setSource('features')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Model/Model.php(808): Model->getDataSource()
+#2 /home/cmdesktop/workspace/gpstracker/app/Controller/HomepagesController.php(12): Model->__call('getPositions', Array)
+#3 /home/cmdesktop/workspace/gpstracker/app/Controller/HomepagesController.php(12): AppModel->getPositions()
+#4 [internal function]: HomepagesController->index()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(HomepagesController), Array)
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#8 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-04-17 13:47:24 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/cmdesktop/workspace/gpstracker/app/Model/Position.php, line 12]
+2015-04-17 13:47:24 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/cmdesktop...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/cmdesktop...', 12, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/cmdesktop...', 12, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 13:47:27 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/cmdesktop/workspace/gpstracker/app/Model/Position.php, line 12]
+2015-04-17 13:47:27 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/cmdesktop...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/cmdesktop...', 12, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/cmdesktop...', 12, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 13:47:30 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/cmdesktop/workspace/gpstracker/app/Model/Position.php, line 12]
+2015-04-17 13:47:30 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/cmdesktop...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/cmdesktop...', 12, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/cmdesktop...', 12, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 13:50:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Position.color' in 'field list'
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Positio...', Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Positio...', Array, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Positio...', false)
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Model/Model.php(2921): DboSource->read(Object(Position), Array)
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Model/Model.php(2893): Model->_readDataSource('all', Array)
+#6 /home/cmdesktop/workspace/gpstracker/app/Model/Position.php(14): Model->find('all', Array)
+#7 /home/cmdesktop/workspace/gpstracker/app/Controller/HomepagesController.php(12): Position->getPositions()
+#8 [internal function]: HomepagesController->index()
+#9 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(HomepagesController), Array)
+#10 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#12 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-17 14:05:56 Error: Fatal Error (4): syntax error, unexpected 'print_r' (T_STRING) in [/home/cmdesktop/workspace/gpstracker/app/Model/Position.php, line 13]
+2015-04-17 14:05:56 Error: [FatalErrorException] syntax error, unexpected 'print_r' (T_STRING)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cmdesktop...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cmdesktop...', 13, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cmdesktop...', 13, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 14:06:10 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/cmdesktop/workspace/gpstracker/app/Model/Position.php, line 15]
+2015-04-17 14:06:10 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cmdesktop...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cmdesktop...', 15, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cmdesktop...', 15, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 14:21:02 Error: Fatal Error (1): Call to a member function createElement() on a non-object in [/home/cmdesktop/workspace/gpstracker/app/View/Elements/gmap.ctp, line 74]
+2015-04-17 14:21:02 Error: [FatalErrorException] Call to a member function createElement() on a non-object
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/cmdesktop...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/cmdesktop...', 74, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/cmdesktop...', 74, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 14:22:30 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/home/cmdesktop/workspace/gpstracker/lib/Cake/Utility/Debugger.php, line 292]
+2015-04-17 14:22:30 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/home/cmdesktop...', 292)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/home/cmdesktop...', 292, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/home/cmdesktop...', 292, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 14:39:55 Error: [MissingControllerException] Controller class PhpsqlajaxGenxml.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpsqlajaxGenxml.phpController',
+  'plugin' => NULL,
+)
+Request URL: /phpsqlajax_genxml.php
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 14:51:31 Error: [MissingHelperException] Helper class GoogleMapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GoogleMapHelper',
+  'plugin' => false,
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(886): HelperCollection->load('GoogleMap', Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(HomepagesController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-17 14:51:50 Error: [MissingHelperException] Helper class GoogleMapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GoogleMapHelper',
+  'plugin' => false,
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(886): HelperCollection->load('GoogleMap', Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(HomepagesController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-17 14:51:51 Error: [MissingHelperException] Helper class GoogleMapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GoogleMapHelper',
+  'plugin' => false,
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(886): HelperCollection->load('GoogleMap', Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(HomepagesController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-17 14:52:03 Error: [MissingHelperException] Helper class GoogleMapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GoogleMapHelper',
+  'plugin' => false,
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(886): HelperCollection->load('GoogleMap', Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(HomepagesController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-17 14:52:34 Error: [MissingHelperException] Helper class GoogleMapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GoogleMapHelper',
+  'plugin' => false,
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(886): HelperCollection->load('GoogleMap', Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(HomepagesController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-17 14:52:34 Error: [MissingHelperException] Helper class GoogleMapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GoogleMapHelper',
+  'plugin' => false,
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(886): HelperCollection->load('GoogleMap', Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(HomepagesController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-17 14:52:57 Error: [MissingHelperException] Helper class GoogleMapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GoogleMapHelper',
+  'plugin' => false,
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(886): HelperCollection->load('GoogleMap', Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(HomepagesController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-17 14:53:55 Error: [MissingHelperException] Helper class GoogleMapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GoogleMapHelper',
+  'plugin' => false,
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(886): HelperCollection->load('GoogleMap', Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(HomepagesController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-17 14:53:56 Error: [MissingHelperException] Helper class GoogleMapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GoogleMapHelper',
+  'plugin' => false,
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(886): HelperCollection->load('GoogleMap', Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(HomepagesController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-17 14:53:57 Error: [MissingHelperException] Helper class GoogleMapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GoogleMapHelper',
+  'plugin' => false,
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(886): HelperCollection->load('GoogleMap', Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(HomepagesController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-17 14:54:03 Error: [MissingHelperException] Helper class GoogleMapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'GoogleMapHelper',
+  'plugin' => false,
+)
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(886): HelperCollection->load('GoogleMap', Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(HomepagesController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-17 15:00:31 Error: Fatal Error (1): Call to a member function addMarker() on a non-object in [/home/cmdesktop/workspace/gpstracker/app/Model/Position.php, line 14]
+2015-04-17 15:00:31 Error: [FatalErrorException] Call to a member function addMarker() on a non-object
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/cmdesktop...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/cmdesktop...', 14, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/cmdesktop...', 14, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 15:19:28 Error: [MissingControllerException] Controller class WebsiteController could not be found.
+Exception Attributes: array (
+  'class' => 'WebsiteController',
+  'plugin' => NULL,
+)
+Request URL: /website/images/phalcon.png
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:19:28 Error: [MissingControllerException] Controller class WebsiteController could not be found.
+Exception Attributes: array (
+  'class' => 'WebsiteController',
+  'plugin' => NULL,
+)
+Request URL: /website/images/heading.png
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:22:04 Error: [MissingControllerException] Controller class WebsiteController could not be found.
+Exception Attributes: array (
+  'class' => 'WebsiteController',
+  'plugin' => NULL,
+)
+Request URL: /website/images/phalcon.png
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:22:04 Error: [MissingControllerException] Controller class WebsiteController could not be found.
+Exception Attributes: array (
+  'class' => 'WebsiteController',
+  'plugin' => NULL,
+)
+Request URL: /website/images/heading.png
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:43:56 Error: [MissingControllerException] Controller class RestpositionController could not be found.
+Exception Attributes: array (
+  'class' => 'RestpositionController',
+  'plugin' => NULL,
+)
+Request URL: /restposition/view
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:44:06 Error: [MissingControllerException] Controller class RestpositionsController could not be found.
+Exception Attributes: array (
+  'class' => 'RestpositionsController',
+  'plugin' => NULL,
+)
+Request URL: /restpositions/view
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:44:17 Error: [MissingControllerException] Controller class RestpositionsController could not be found.
+Exception Attributes: array (
+  'class' => 'RestpositionsController',
+  'plugin' => NULL,
+)
+Request URL: /restpositions/view
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:44:20 Error: [MissingControllerException] Controller class RestpositionController could not be found.
+Exception Attributes: array (
+  'class' => 'RestpositionController',
+  'plugin' => NULL,
+)
+Request URL: /restposition
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:44:32 Error: [MissingControllerException] Controller class RestPositionController could not be found.
+Exception Attributes: array (
+  'class' => 'RestPositionController',
+  'plugin' => NULL,
+)
+Request URL: /restPosition
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:44:35 Error: Fatal Error (64): Cannot redeclare RestPositionsController::$components in [/home/cmdesktop/workspace/gpstracker/app/Controller/RestPositionsController.php, line 20]
+2015-04-17 15:44:35 Error: [FatalErrorException] Cannot redeclare RestPositionsController::$components
+Request URL: /restPositions
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/cmdesktop...', 20)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/cmdesktop...', 20, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/cmdesktop...', 20, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 15:44:47 Error: Fatal Error (1): Call to a member function paginate() on a non-object in [/home/cmdesktop/workspace/gpstracker/app/Controller/RestPositionsController.php, line 28]
+2015-04-17 15:44:47 Error: [FatalErrorException] Call to a member function paginate() on a non-object
+Request URL: /restPositions
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/cmdesktop...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/cmdesktop...', 28, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/cmdesktop...', 28, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 15:44:54 Error: [NotFoundException] Invalid position
+Request URL: /restPositions/view
+Stack Trace:
+#0 [internal function]: RestPositionsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RestPositionsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RestPositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:45:03 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/RestPositions/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/RestPositions/view.ctp',
+)
+Request URL: /restPositions/view/1
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RestPositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:46:04 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/RestPositions/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/RestPositions/view.ctp',
+)
+Request URL: /restPositions/view/1
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RestPositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:46:31 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:47:23 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:47:25 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:47:39 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:47:46 Error: [MissingControllerException] Controller class ClientsController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientsController',
+  'plugin' => NULL,
+)
+Request URL: /clients
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:47:49 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:48:09 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:48:57 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:48:57 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:48:58 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:49:21 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client/index.ctp
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:49:36 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:50:07 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:50:08 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:50:08 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:51:47 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:52:20 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:52:22 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:53:03 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:55:50 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:55:50 Error: [MissingControllerException] Controller class ClientsController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientsController',
+  'plugin' => NULL,
+)
+Request URL: /clients
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:55:58 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:56:44 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:56:51 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/index.ctp',
+)
+Request URL: /client
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:58:00 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:58:05 Error: [MissingControllerException] Controller class ClientsController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientsController',
+  'plugin' => NULL,
+)
+Request URL: /clients/request_index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:58:09 Error: [MissingControllerException] Controller class ClientsController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientsController',
+  'plugin' => NULL,
+)
+Request URL: /clients/request_index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:58:12 Error: [MissingControllerException] Controller class RestPhonesController could not be found.
+Exception Attributes: array (
+  'class' => 'RestPhonesController',
+  'plugin' => NULL,
+)
+Request URL: /rest_phones.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:58:12 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp',
+)
+Request URL: /client/request_index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName('/Client/request...')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render('/Client/request...', NULL)
+#2 /home/cmdesktop/workspace/gpstracker/app/Controller/ClientController.php(21): Controller->render('/Client/request...')
+#3 [internal function]: ClientController->request_index()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientController), Array)
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#7 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-04-17 15:58:33 Error: [MissingControllerException] Controller class RestPhonesController could not be found.
+Exception Attributes: array (
+  'class' => 'RestPhonesController',
+  'plugin' => NULL,
+)
+Request URL: /rest_phones.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:58:33 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_index.ctp',
+)
+Request URL: /client/request_index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 15:59:11 Error: [MissingActionException] Action ClientController::request_response() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientController',
+  'action' => 'request_response',
+)
+Request URL: /client/request_response
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 15:59:31 Error: [MissingControllerException] Controller class RestPhonesController could not be found.
+Exception Attributes: array (
+  'class' => 'RestPhonesController',
+  'plugin' => NULL,
+)
+Request URL: /rest_phones.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:59:31 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp',
+)
+Request URL: /client/request_index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName('/Client/request...')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render('/Client/request...', NULL)
+#2 /home/cmdesktop/workspace/gpstracker/app/Controller/ClientController.php(21): Controller->render('/Client/request...')
+#3 [internal function]: ClientController->request_index()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientController), Array)
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#7 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-04-17 15:59:54 Error: [MissingControllerException] Controller class RestPhonesController could not be found.
+Exception Attributes: array (
+  'class' => 'RestPhonesController',
+  'plugin' => NULL,
+)
+Request URL: /rest_phones.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 15:59:54 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp',
+)
+Request URL: /client/request_index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName('/Client/request...')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render('/Client/request...', NULL)
+#2 /home/cmdesktop/workspace/gpstracker/app/Controller/ClientController.php(21): Controller->render('/Client/request...')
+#3 [internal function]: ClientController->request_index()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientController), Array)
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#7 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-04-17 16:00:39 Error: [MissingControllerException] Controller class RestPhonesController could not be found.
+Exception Attributes: array (
+  'class' => 'RestPhonesController',
+  'plugin' => NULL,
+)
+Request URL: /rest_phones.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 16:00:39 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_index.ctp',
+)
+Request URL: /client/request_index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:02:32 Error: [MissingControllerException] Controller class RestPhonesController could not be found.
+Exception Attributes: array (
+  'class' => 'RestPhonesController',
+  'plugin' => NULL,
+)
+Request URL: /rest_phones.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 16:02:32 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_index.ctp',
+)
+Request URL: /client/request_index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:03:47 Error: [MissingControllerException] Controller class ClientsController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientsController',
+  'plugin' => NULL,
+)
+Request URL: /clients
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 16:03:52 Error: [MissingControllerException] Controller class RestPhonesController could not be found.
+Exception Attributes: array (
+  'class' => 'RestPhonesController',
+  'plugin' => NULL,
+)
+Request URL: /rest_phones.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 16:03:52 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_index.ctp',
+)
+Request URL: /client/request_index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:04:03 Error: [MissingControllerException] Controller class RestPhonesController could not be found.
+Exception Attributes: array (
+  'class' => 'RestPhonesController',
+  'plugin' => NULL,
+)
+Request URL: /rest_phones.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 16:04:03 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_index.ctp',
+)
+Request URL: /client/request_index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:04:26 Error: [MissingControllerException] Controller class RestPhonesController could not be found.
+Exception Attributes: array (
+  'class' => 'RestPhonesController',
+  'plugin' => NULL,
+)
+Request URL: /rest_phones/.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 16:04:26 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp',
+)
+Request URL: /client/request_view
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName('/Client/request...')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render('/Client/request...', NULL)
+#2 /home/cmdesktop/workspace/gpstracker/app/Controller/ClientController.php(35): Controller->render('/Client/request...')
+#3 [internal function]: ClientController->request_view()
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientController), Array)
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#7 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-04-17 16:04:54 Error: [MissingActionException] Action RestPositionsController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'RestPositionsController',
+  'action' => '2',
+)
+Request URL: /rest_positions/2.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RestPositionsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 16:04:54 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp',
+)
+Request URL: /client/request_view/2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName('/Client/request...')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render('/Client/request...', NULL)
+#2 /home/cmdesktop/workspace/gpstracker/app/Controller/ClientController.php(35): Controller->render('/Client/request...')
+#3 [internal function]: ClientController->request_view('2')
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientController), Array)
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#7 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-04-17 16:05:23 Error: [MissingActionException] Action RestPositionsController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'RestPositionsController',
+  'action' => '2',
+)
+Request URL: /rest_positions/2.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RestPositionsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 16:05:23 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp',
+)
+Request URL: /client/request_view/2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName('/Client/request...')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render('/Client/request...', NULL)
+#2 /home/cmdesktop/workspace/gpstracker/app/Controller/ClientController.php(36): Controller->render('/Client/request...')
+#3 [internal function]: ClientController->request_view('2')
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientController), Array)
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#7 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-04-17 16:05:49 Error: [MissingActionException] Action RestPositionsController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'RestPositionsController',
+  'action' => '2',
+)
+Request URL: /rest_positions/2.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RestPositionsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 16:05:49 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp',
+)
+Request URL: /client/request_view/2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName('/Client/request...')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render('/Client/request...', NULL)
+#2 /home/cmdesktop/workspace/gpstracker/app/Controller/ClientController.php(37): Controller->render('/Client/request...')
+#3 [internal function]: ClientController->request_view('2')
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientController), Array)
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#7 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-04-17 16:07:34 Error: [MissingActionException] Action RestPositionsController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'RestPositionsController',
+  'action' => '2',
+)
+Request URL: /rest_positions/2.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RestPositionsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 16:07:34 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp',
+)
+Request URL: /client/request_view/2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName('/Client/request...')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render('/Client/request...', NULL)
+#2 /home/cmdesktop/workspace/gpstracker/app/Controller/ClientController.php(37): Controller->render('/Client/request...')
+#3 [internal function]: ClientController->request_view('2')
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientController), Array)
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#7 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-04-17 16:08:07 Error: [MissingActionException] Action RestPositionsController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'RestPositionsController',
+  'action' => '2',
+)
+Request URL: /rest_positions/2.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RestPositionsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 16:08:07 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp',
+)
+Request URL: /client/request_view/2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName('/Client/request...')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render('/Client/request...', NULL)
+#2 /home/cmdesktop/workspace/gpstracker/app/Controller/ClientController.php(38): Controller->render('/Client/request...')
+#3 [internal function]: ClientController->request_view('2')
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientController), Array)
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#7 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-04-17 16:08:13 Error: [MissingActionException] Action RestPositionsController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'RestPositionsController',
+  'action' => '2',
+)
+Request URL: /rest_positions/2.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RestPositionsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 16:08:22 Error: Fatal Error (1): Call to a member function paginate() on a non-object in [/home/cmdesktop/workspace/gpstracker/app/Controller/RestPositionsController.php, line 28]
+2015-04-17 16:08:22 Error: [FatalErrorException] Call to a member function paginate() on a non-object
+Request URL: /rest_positions/
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/cmdesktop...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/cmdesktop...', 28, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/cmdesktop...', 28, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 16:08:46 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/RestPositions/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/RestPositions/index.ctp',
+)
+Request URL: /rest_positions/
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RestPositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:08:59 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/RestPositions/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/RestPositions/index.ctp',
+)
+Request URL: /rest_positions/
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RestPositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:10:45 Error: [MissingControllerException] Controller class RestPositionsController could not be found.
+Exception Attributes: array (
+  'class' => 'RestPositionsController',
+  'plugin' => NULL,
+)
+Request URL: /rest_positions/2.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 16:10:45 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Client/request_response.ctp',
+)
+Request URL: /client/request_view/2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/View.php(468): View->_getViewFileName('/Client/request...')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): View->render('/Client/request...', NULL)
+#2 /home/cmdesktop/workspace/gpstracker/app/Controller/ClientController.php(38): Controller->render('/Client/request...')
+#3 [internal function]: ClientController->request_view('2')
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientController), Array)
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest))
+#7 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-04-17 16:15:09 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp',
+)
+Request URL: /elements.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:16:41 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp',
+)
+Request URL: /elements.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:16:54 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp',
+)
+Request URL: /elements/index.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:17:38 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp',
+)
+Request URL: /elements.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:19:31 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp',
+)
+Request URL: /elements.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:29:29 Error: Fatal Error (1): Cannot access empty property in [/home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php, line 437]
+2015-04-17 16:29:29 Error: [FatalErrorException] Cannot access empty property
+Request URL: /positions.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/home/cmdesktop...', 437)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/home/cmdesktop...', 437, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/home/cmdesktop...', 437, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 16:29:48 Error: Fatal Error (1): Cannot access empty property in [/home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php, line 437]
+2015-04-17 16:29:48 Error: [FatalErrorException] Cannot access empty property
+Request URL: /positions.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/home/cmdesktop...', 437)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/home/cmdesktop...', 437, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/home/cmdesktop...', 437, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 16:32:31 Error: [NotFoundException] Invalid position
+Request URL: /positions/view.json
+Stack Trace:
+#0 [internal function]: PositionsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:32:36 Error: [MissingActionException] Action PositionsController::view.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'PositionsController',
+  'action' => 'view.json',
+)
+Request URL: /positions/view.json/2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 16:32:55 Error: [NotFoundException] Invalid position
+Request URL: /positions/view?2_json%2F2=
+Stack Trace:
+#0 [internal function]: PositionsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:33:09 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view/2.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:33:17 Error: [NotFoundException] Invalid position
+Request URL: /positions/view.json
+Stack Trace:
+#0 [internal function]: PositionsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:37:23 Error: [NotFoundException] Invalid position
+Request URL: /positions/view.json
+Stack Trace:
+#0 [internal function]: PositionsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:37:33 Error: [NotFoundException] Invalid position
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 [internal function]: PositionsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:38:59 Error: [NotFoundException] Invalid position
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 [internal function]: PositionsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:39:04 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:39:21 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:40:28 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:40:37 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:42:52 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:43:24 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:43:41 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:43:46 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:43:52 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:43:55 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:44:10 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:44:11 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:44:11 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:44:11 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:44:50 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:44:57 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:45:16 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:45:26 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?ollasdasda=adeus
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:46:19 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?ollasdasda=adeus
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:47:11 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:47:26 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:47:46 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:48:37 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:48:44 Error: [NotFoundException] Invalid position
+Request URL: /positions/view.json
+Stack Trace:
+#0 [internal function]: PositionsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:48:46 Error: [NotFoundException] Invalid position
+Request URL: /positions/view.json
+Stack Trace:
+#0 [internal function]: PositionsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:49:17 Error: [NotFoundException] Invalid position
+Request URL: /positions/view.json
+Stack Trace:
+#0 [internal function]: PositionsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:49:26 Error: [NotFoundException] Invalid position
+Request URL: /positions/view.json
+Stack Trace:
+#0 [internal function]: PositionsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:49:37 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:49:41 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/view.json?id=2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 16:51:36 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Positions/json/view.ctp',
+)
+Request URL: /positions/2.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 08:45:52 Error: [MissingViewException] View file "/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/cmdesktop/workspace/gpstracker/app/View/Elements/json/index.ctp',
+)
+Request URL: /elements.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -1,0 +1,28 @@
+body {
+	padding-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		padding-top: 20px;
+	}
+}
+.map-container {
+	height: 100%;
+	width: 100%;
+	min-height: 400px;
+	margin: 0;
+	padding: 0;
+}
+.no-margin {
+	margin: 0px !important;
+	padding: 0px !important;;
+}
+
+.table-container {
+	margin-top: 30px;
+}
+
+.table-container > h4 {
+	font-weight: bolder;
+}
