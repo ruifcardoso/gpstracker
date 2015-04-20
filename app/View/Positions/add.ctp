@@ -75,7 +75,17 @@ echo $this->Form->end ( array (
 $(document).ready(function(){
 	
 jQuery('#datetimepicker').datetimepicker({
-  format:'Y-m-s H:i:s'});
+  format:'Y-m-s H:i:s',
+  onChangeDateTime:function(dp,$input){
+    $( '#datetimepicker' ).val($input.val());
+    
+  }
+
+
+	  });
+
+
+
 });
 
 </script>

@@ -19,10 +19,6 @@ body {
 	padding: 0px !important;;
 }
 
-.table-container {
-	border: 2px solid;
-    border-radius: 25px;
-}
 
 .table-container > h4 {
 	font-weight: bolder;

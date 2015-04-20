@@ -38,8 +38,8 @@ class PositionsController extends AppController {
 		parent::beforeFilter();
 
 		// For CakePHP 2.1 and up
-		$this->Auth->allow();
-	}
+    	//$this->Auth->allow('index', 'view');
+		}
 
 /**
  * view method

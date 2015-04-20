@@ -16,7 +16,6 @@
 	   <?= $this->GoogleMap->map($map_options); ?>
 	
 	
-	<?php //echo $this->element('gmap'); ?>
 
 <div class="table-responsive table-container">
 			<h4>Detailed localization</h4>

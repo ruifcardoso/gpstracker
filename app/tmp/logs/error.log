@@ -1958,3 +1958,44 @@ Request URL: /grups
 Stack Trace:
 #0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-04-20 11:11:07 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /login
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 11:18:29 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /login
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 11:31:53 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 3
+)
+"
+Request URL: /users/add
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Model/Permission.php(80): AclNode->node(Array)
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/Acl/DbAcl.php(74): Permission->check(Array, 'controllers/Use...', '*')
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AclComponent.php(110): DbAcl->check(Array, 'controllers/Use...', '*')
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/Auth/ActionsAuthorize.php(38): AclComponent->check(Array, 'controllers/Use...')
+#4 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(465): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(UsersController))
+#7 /home/cmdesktop/workspace/gpstracker/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/cmdesktop/workspace/gpstracker/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#10 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#12 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}

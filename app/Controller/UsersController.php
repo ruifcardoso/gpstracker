@@ -27,22 +27,58 @@ class UsersController extends AppController {
 
 	
 	public function beforeFilter() {
-		parent::beforeFilter();
-		// For CakePHP 2.1 and up
-		$this->Auth->allow();
+	    parent::beforeFilter();
+	    $this->Auth->allow('add','logout');
+	}
+	
+	public function tes() {
+	    $group = $this->User->Group;
+	
+	    // Allow admins to everything
+	    $group->id = 1;
+	    $this->Acl->allow($group, 'controllers');
+	
+	    // allow managers to posts and widgets
+	    $group->id = 2;
+	    $this->Acl->deny($group, 'controllers');
+	    $this->Acl->allow($group, 'controllers/Elements');
+	    $this->Acl->allow($group, 'controllers/Positions');
+	    $this->Acl->allow($group, 'controllers/users/logout');
+	     
+	    // allow users to only add and edit on posts and widgets
+	    $group->id = 3;
+	    $this->Acl->deny($group, 'controllers');
+	    $this->Acl->allow($group, 'controllers/Elements/add');
+	    $this->Acl->allow($group, 'controllers/Elements/edit');
+	    $this->Acl->allow($group, 'controllers/Positions/add');
+	    $this->Acl->allow($group, 'controllers/Positions/edit');
+	
+	    // allow basic users to log out
+	    $this->Acl->allow($group, 'controllers/users/logout');
+	
+	    // we add an exit to avoid an ugly "missing views" error message
+	    echo "all done";
+	    exit;
 	}
 	
 	public function login() {
+		if ($this->Session->read('Auth.User')) {
+			$this->Session->setFlash('You are logged in!');
+			return $this->redirect('/');
+		}
 		if ($this->request->is('post')) {
 			if ($this->Auth->login()) {
+				$this->Session->setFlash("You are now logged in");
 				return $this->redirect($this->Auth->redirectUrl());
+			}else{
+				$this->Session->setFlash(__('Your username or password was incorrect.'));
 			}
-			$this->Session->setFlash(__('Your username or password was incorrect.'));
 		}
 	}
 	
 	public function logout() {
-		//Leave empty for now.
+		$this->Session->setFlash('Good-Bye');
+		$this->redirect($this->Auth->logout());
 	}
 /**
  * view method

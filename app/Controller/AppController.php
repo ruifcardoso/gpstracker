@@ -34,6 +34,8 @@ class AppController extends Controller {
 	public $components = array( 'RequestHandler',
 		'Acl',
         'Auth' => array(
+        	'loginRedirect' => array('controller' => 'homepages', 'action' => 'index'),
+        	'logoutRedirect' => array('controller' => 'users', 'action' => 'login'),
             'authorize' => array(
                 'Actions' => array('actionPath' => 'controllers')
             )
@@ -49,14 +51,14 @@ class AppController extends Controller {
 				'controller' => 'users',
 				'action' => 'login'
 		);
-		$this->Auth->logoutRedirect = array(
+		/*$this->Auth->logoutRedirect = array(
 				'controller' => 'users',
 				'action' => 'login'
 		);
 		$this->Auth->loginRedirect = array(
 				'controller' => 'homepages',
 				'action' => 'index'
-		);
+		);*/
 	}
 	
 }

@@ -38,6 +38,8 @@
 <body>
 	<div id="container theme-showcase" role="main">	
     <?php echo $this->Session->flash(); ?>
+   	<?php echo $this->Session->flash('auth'); ?>
+    
        <?php echo $this->element('header'); ?>
     <?php echo $this->fetch('content'); ?>
   </div>
