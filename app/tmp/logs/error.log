@@ -1928,3 +1928,33 @@ Stack Trace:
 #3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2015-04-20 10:32:06 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-20 10:37:26 Error: Fatal Error (64): Cannot redeclare User::$belongsTo in [/home/cmdesktop/workspace/gpstracker/app/Model/User.php, line 87]
+2015-04-20 10:37:26 Error: [FatalErrorException] Cannot redeclare User::$belongsTo
+Request URL: /users
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/cmdesktop...', 87)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/cmdesktop...', 87, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/cmdesktop...', 87, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-20 10:42:12 Error: [MissingControllerException] Controller class GrupsController could not be found.
+Exception Attributes: array (
+  'class' => 'GrupsController',
+  'plugin' => NULL,
+)
+Request URL: /grups
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

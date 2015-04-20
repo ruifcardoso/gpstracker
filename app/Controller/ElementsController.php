@@ -26,6 +26,13 @@ class ElementsController extends AppController {
 		$this->set('_serialize','elements');
 	}
 
+	
+	public function beforeFilter() {
+		parent::beforeFilter();
+	
+		// For CakePHP 2.1 and up
+		$this->Auth->allow();
+	}
 /**
  * view method
  *

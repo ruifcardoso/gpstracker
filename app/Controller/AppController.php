@@ -40,6 +40,23 @@ class AppController extends Controller {
         ),
         'Session'
     );
-	public $helpers = array('GoogleMap');
+	
+	public $helpers = array('GoogleMap','Html', 'Form', 'Session');
+	
+	public function beforeFilter() {
+		//Configure AuthComponent
+		$this->Auth->loginAction = array(
+				'controller' => 'users',
+				'action' => 'login'
+		);
+		$this->Auth->logoutRedirect = array(
+				'controller' => 'users',
+				'action' => 'login'
+		);
+		$this->Auth->loginRedirect = array(
+				'controller' => 'homepages',
+				'action' => 'index'
+		);
+	}
 	
 }

@@ -25,6 +25,25 @@ class UsersController extends AppController {
 		$this->set('users', $this->Paginator->paginate());
 	}
 
+	
+	public function beforeFilter() {
+		parent::beforeFilter();
+		// For CakePHP 2.1 and up
+		$this->Auth->allow();
+	}
+	
+	public function login() {
+		if ($this->request->is('post')) {
+			if ($this->Auth->login()) {
+				return $this->redirect($this->Auth->redirectUrl());
+			}
+			$this->Session->setFlash(__('Your username or password was incorrect.'));
+		}
+	}
+	
+	public function logout() {
+		//Leave empty for now.
+	}
 /**
  * view method
  *
@@ -55,6 +74,8 @@ class UsersController extends AppController {
 				$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
 			}
 		}
+		$groups = $this->User->Group->find('list');
+		$this->set(compact('groups'));
 	}
 
 /**
@@ -79,6 +100,8 @@ class UsersController extends AppController {
 			$options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
 			$this->request->data = $this->User->find('first', $options);
 		}
+		$groups = $this->User->Group->find('list');
+		$this->set(compact('groups'));
 	}
 
 /**
@@ -100,19 +123,5 @@ class UsersController extends AppController {
 			$this->Session->setFlash(__('The user could not be deleted. Please, try again.'));
 		}
 		return $this->redirect(array('action' => 'index'));
-	}
-
-	
-	public function login() {
-		if ($this->request->is('post')) {
-			if ($this->Auth->login()) {
-				return $this->redirect($this->Auth->redirectUrl());
-			}
-			$this->Session->setFlash(__('Your username or password was incorrect.'));
-		}
-	}
-	
-	public function logout() {
-		//Leave empty for now.
 	}
 }
