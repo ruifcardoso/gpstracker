@@ -2071,3 +2071,583 @@ Stack Trace:
 #3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-04-20 15:04:39 Error: Fatal Error (1): Call to undefined method View::elements() in [/home/cmdesktop/workspace/gpstracker/app/View/Homepages/index.ctp, line 4]
+2015-04-20 15:04:39 Error: [FatalErrorException] Call to undefined method View::elements()
+Request URL: /homepages
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/cmdesktop...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/cmdesktop...', 4, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/cmdesktop...', 4, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-20 15:06:51 Error: [MissingControllerException] Controller class (12,12)Controller could not be found.
+Exception Attributes: array (
+  'class' => '(12,12)Controller',
+  'plugin' => NULL,
+)
+Request URL: /(12,%2012)
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 15:07:22 Error: [MissingControllerException] Controller class (12,12)Controller could not be found.
+Exception Attributes: array (
+  'class' => '(12,12)Controller',
+  'plugin' => NULL,
+)
+Request URL: /(12,%2012)
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 15:07:33 Error: [MissingControllerException] Controller class (12,12)Controller could not be found.
+Exception Attributes: array (
+  'class' => '(12,12)Controller',
+  'plugin' => NULL,
+)
+Request URL: /(12,%2012)
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 15:07:46 Error: [MissingControllerException] Controller class (12,12)Controller could not be found.
+Exception Attributes: array (
+  'class' => '(12,12)Controller',
+  'plugin' => NULL,
+)
+Request URL: /(12,%2012)
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 15:07:49 Error: [MissingControllerException] Controller class (12,12)Controller could not be found.
+Exception Attributes: array (
+  'class' => '(12,12)Controller',
+  'plugin' => NULL,
+)
+Request URL: /(12,%2012)
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 15:08:08 Error: [MissingControllerException] Controller class (12,12)Controller could not be found.
+Exception Attributes: array (
+  'class' => '(12,12)Controller',
+  'plugin' => NULL,
+)
+Request URL: /(12,%2012)
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 15:08:11 Error: [MissingControllerException] Controller class (12,12)Controller could not be found.
+Exception Attributes: array (
+  'class' => '(12,12)Controller',
+  'plugin' => NULL,
+)
+Request URL: /(12,%2012)
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 15:08:41 Error: [MissingControllerException] Controller class (12,12)Controller could not be found.
+Exception Attributes: array (
+  'class' => '(12,12)Controller',
+  'plugin' => NULL,
+)
+Request URL: /(12,%2012)
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 15:09:26 Error: [MissingControllerException] Controller class (12,12)Controller could not be found.
+Exception Attributes: array (
+  'class' => '(12,12)Controller',
+  'plugin' => NULL,
+)
+Request URL: /(12,%2012)
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 15:11:38 Error: Fatal Error (4): syntax error, unexpected '?>' in [/home/cmdesktop/workspace/gpstracker/app/View/Layouts/default.ctp, line 12]
+2015-04-20 15:11:38 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cmdesktop...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cmdesktop...', 12, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cmdesktop...', 12, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-20 16:14:30 Error: [UnauthorizedException] Unauthorized
+Request URL: /elements
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(304): AuthComponent->_unauthenticated(Object(ElementsController))
+#2 [internal function]: AuthComponent->startup(Object(ElementsController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#8 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#9 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-20 16:17:59 Error: [UnauthorizedException] Unauthorized
+Request URL: /positions
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(304): AuthComponent->_unauthenticated(Object(PositionsController))
+#2 [internal function]: AuthComponent->startup(Object(PositionsController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#8 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#9 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-20 16:18:02 Error: [UnauthorizedException] Unauthorized
+Request URL: /elements
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(304): AuthComponent->_unauthenticated(Object(ElementsController))
+#2 [internal function]: AuthComponent->startup(Object(ElementsController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#8 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#9 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-20 16:21:05 Error: [UnauthorizedException] Unauthorized
+Request URL: /elements.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(304): AuthComponent->_unauthenticated(Object(ElementsController))
+#2 [internal function]: AuthComponent->startup(Object(ElementsController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#8 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#9 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-20 16:22:10 Error: [UnauthorizedException] Unauthorized
+Request URL: /elements.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Component/AuthComponent.php(304): AuthComponent->_unauthenticated(Object(ElementsController))
+#2 [internal function]: AuthComponent->startup(Object(ElementsController))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/cmdesktop/workspace/gpstracker/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#8 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#9 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-20 16:45:05 Error: [NotFoundException] Invalid element
+Request URL: /elements/view.json
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:45:22 Error: [NotFoundException] Invalid element
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:45:57 Error: [NotFoundException] Invalid element
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:45:58 Error: [NotFoundException] Invalid element
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:45:59 Error: [NotFoundException] Invalid element
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:45:59 Error: [NotFoundException] Invalid element
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:45:59 Error: [NotFoundException] Invalid element
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:46:04 Error: [NotFoundException] Invalid element
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:46:08 Error: [NotFoundException] Invalid element
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:46:20 Error: [NotFoundException] Invalid element
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:46:35 Error: Fatal Error (4): syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in [/home/cmdesktop/workspace/gpstracker/app/Controller/ElementsController.php, line 46]
+2015-04-20 16:46:35 Error: [FatalErrorException] syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM)
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cmdesktop...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cmdesktop...', 46, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cmdesktop...', 46, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-20 16:46:45 Error: Fatal Error (4): syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in [/home/cmdesktop/workspace/gpstracker/app/Controller/ElementsController.php, line 46]
+2015-04-20 16:46:45 Error: [FatalErrorException] syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM)
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cmdesktop...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cmdesktop...', 46, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cmdesktop...', 46, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-20 16:46:47 Error: [NotFoundException] Invalid element
+Request URL: /elements/view.json?id=1
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:49:19 Error: [NotFoundException] Invalid element
+Request URL: /elements/view/ola/1/adeus/2
+Stack Trace:
+#0 [internal function]: ElementsController->view('ola', '1', 'adeus', '2')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:49:55 Error: [NotFoundException] Invalid element
+Request URL: /elements/view/id:1/test:2
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 16:50:03 Error: [MissingActionException] Action ElementsController::view.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'ElementsController',
+  'action' => 'view.json',
+)
+Request URL: /elements/view.json/id:1/test:2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-20 16:53:53 Error: [MissingControllerException] Controller class JsonController could not be found.
+Exception Attributes: array (
+  'class' => 'JsonController',
+  'plugin' => NULL,
+)
+Request URL: /json/elements/view/1
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 16:55:04 Error: [MissingControllerException] Controller class JsonController could not be found.
+Exception Attributes: array (
+  'class' => 'JsonController',
+  'plugin' => NULL,
+)
+Request URL: /json/elements/view/1
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 16:56:35 Error: [MissingControllerException] Controller class JsonController could not be found.
+Exception Attributes: array (
+  'class' => 'JsonController',
+  'plugin' => NULL,
+)
+Request URL: /json/elements/view/1
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 16:56:36 Error: [MissingControllerException] Controller class JsonController could not be found.
+Exception Attributes: array (
+  'class' => 'JsonController',
+  'plugin' => NULL,
+)
+Request URL: /json/elements/view/1
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 17:00:11 Error: [MissingActionException] Action ElementsController::json_view() could not be found.
+Exception Attributes: array (
+  'controller' => 'ElementsController',
+  'action' => 'json_view',
+)
+Request URL: /json/elements/view/1
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-20 17:00:17 Error: [MissingActionException] Action ElementsController::json_view() could not be found.
+Exception Attributes: array (
+  'controller' => 'ElementsController',
+  'action' => 'json_view',
+)
+Request URL: /json/elements/view/1.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-20 17:01:09 Error: [MissingControllerException] Controller class JsonController could not be found.
+Exception Attributes: array (
+  'class' => 'JsonController',
+  'plugin' => NULL,
+)
+Request URL: /json/elements/view/1.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 17:01:15 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /api/elements/view/1.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 17:01:37 Error: [MissingActionException] Action ElementsController::api_view() could not be found.
+Exception Attributes: array (
+  'controller' => 'ElementsController',
+  'action' => 'api_view',
+)
+Request URL: /api/elements/view/1.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-20 17:01:47 Error: [MissingActionException] Action ElementsController::api_view() could not be found.
+Exception Attributes: array (
+  'controller' => 'ElementsController',
+  'action' => 'api_view',
+)
+Request URL: /api/elements/view/1.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-20 17:01:52 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /api/elements/view/1.json
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 17:01:59 Error: [MissingControllerException] Controller class JsonController could not be found.
+Exception Attributes: array (
+  'class' => 'JsonController',
+  'plugin' => NULL,
+)
+Request URL: /json/elements/view/1.json/2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 17:02:09 Error: [MissingControllerException] Controller class JsonController could not be found.
+Exception Attributes: array (
+  'class' => 'JsonController',
+  'plugin' => NULL,
+)
+Request URL: /json/elements/view.json/1:2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-20 17:02:14 Error: [MissingActionException] Action ElementsController::view.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'ElementsController',
+  'action' => 'view.json',
+)
+Request URL: /elements/view.json/1:2
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-20 17:02:21 Error: [NotFoundException] Invalid element
+Request URL: /elements/view/1:2.json
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 17:02:33 Error: [NotFoundException] Invalid element
+Request URL: /elements/view/4441:2.json
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 17:02:42 Error: [NotFoundException] Invalid element
+Request URL: /elements/view/4441.json
+Stack Trace:
+#0 [internal function]: ElementsController->view('4441')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 17:02:55 Error: [NotFoundException] Invalid element
+Request URL: /elements/view/2
+Stack Trace:
+#0 [internal function]: ElementsController->view('2')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 17:03:12 Error: [NotFoundException] Invalid element
+Request URL: /elements/view/2
+Stack Trace:
+#0 [internal function]: ElementsController->view('2')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 17:03:30 Error: [NotFoundException] Invalid element
+Request URL: /elements/view/2
+Stack Trace:
+#0 [internal function]: ElementsController->view('2')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 17:03:39 Error: [NotFoundException] Invalid element
+Request URL: /elements/view/1:2.json
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 17:03:53 Error: [NotFoundException] Invalid element
+Request URL: /elements/view/1:2/2.json
+Stack Trace:
+#0 [internal function]: ElementsController->view('2')
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 17:04:05 Error: [NotFoundException] Invalid element
+Request URL: /elements/view/1111:233/aaaa:3332.json
+Stack Trace:
+#0 [internal function]: ElementsController->view()
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ElementsController), Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ElementsController), Object(CakeRequest))
+#4 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-20 17:08:37 Error: [MissingActionException] Action HomepagesController::api_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomepagesController',
+  'action' => 'api_index',
+)
+Request URL: /api/homepages/index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-20 17:08:48 Error: [MissingActionException] Action HomepagesController::api_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomepagesController',
+  'action' => 'api_index',
+)
+Request URL: /api/homepages/index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-20 17:08:59 Error: [MissingActionException] Action HomepagesController::api_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomepagesController',
+  'action' => 'api_index',
+)
+Request URL: /api/homepages/index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-20 17:09:30 Error: [MissingActionException] Action HomepagesController::api_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomepagesController',
+  'action' => 'api_index',
+)
+Request URL: /api/homepages/index
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cmdesktop/workspace/gpstracker/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomepagesController), Object(CakeRequest))
+#2 /home/cmdesktop/workspace/gpstracker/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

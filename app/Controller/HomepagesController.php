@@ -21,7 +21,7 @@ class HomepagesController extends AppController {
 	public function beforeFilter() {
 		parent::beforeFilter();
 		// For CakePHP 2.1 and up
-		$this->Auth->allow('index');
+		//$this->Auth->allow('index');
 		//var_dump($this->Session->read('Auth.User'));
 	}
 

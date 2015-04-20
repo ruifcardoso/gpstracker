@@ -36,10 +36,12 @@
  */
 	CakePlugin::routes();
 
-	Router::mapResources( 'positions' );
-	Router::mapResources( 'elements' );
+	Router::mapResources( 'positions');
+	Router::mapResources( 'elements');
 	
-Router::parseExtensions();
+	Router::parseExtensions();
+	
+	Router::connect('/api/:controller/:action/*', array('prefix' => 'api', 'api' => true));
 	
 /**
  * Load the CakePHP default routes. Only remove this if you do not want to use

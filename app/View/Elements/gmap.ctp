@@ -1,31 +1,8 @@
 
 <div id="map-canvas" class="map-container"></div>
 
-<?php 
-
-$dom = new DOMDocument("1.0");
-$node = $dom->createElement("markers");
-$parnode = $dom->appendChild($node);
-
-header("Content-type: text/xml");
-
-foreach ($listPositions as $position){
-	// ADD TO XML DOCUMENT NODE
-	$node = $dom->createElement("marker");
-	$newnode = $parnode->appendChild($node);
-	$newnode->setAttribute("name",$position['Position']['id']);
-	$newnode->setAttribute("address", "");
-	$newnode->setAttribute("lat", $position['Position']['lat']);
-	$newnode->setAttribute("lng", $position['Position']['long']);
-	$newnode->setAttribute("type", "");
-	echo "ahoy";
-}
-
-$exemplo = $dom->saveXML();
-
-?>
 <script type="text/javascript">
-function initialize() {
+	function initialize() {
 	  var mapOptions = {
 	    zoom: 12,
 	    //center: new google.maps.LatLng(-34.397, 150.644)
@@ -34,18 +11,37 @@ function initialize() {
 	  var map = new google.maps.Map(document.getElementById('map-canvas'),
 	      mapOptions);
 
+
+
+      //add databse locations
+		<?php foreach($listPositions as $position){ ?>
+		var location = new google.maps.LatLng(<?php echo $position['Position']['lat']; ?>, <?php echo $position['Position']['long']; ?>);
+	
+		var marker = new google.maps.Marker({
+		    position: location,
+		    map: map
+		});
+			
+	<?php } ?>
 	  if(navigator.geolocation) {
 		    navigator.geolocation.getCurrentPosition(function(position) {
 		      var pos = new google.maps.LatLng(position.coords.latitude,
 		                                       position.coords.longitude);
 
-		      /*var infowindow = new google.maps.InfoWindow({
+		      var infowindow = new google.maps.InfoWindow({
 		        map: map,
 		        position: pos,
-		        content: 'Location found using HTML5.'
-		      });*/
+		        content: 'Your current location.'
+		      });
+
+		      var marker = new google.maps.Marker({
+				    position: pos,
+				    title:"My position",
+				    map: map,
+				});
 
 		      map.setCenter(pos);
+
 		    }, function() {
 		      handleNoGeolocation(true);
 		    });
@@ -71,36 +67,15 @@ function initialize() {
 		  map.setCenter(options.position);
 		}
 	}
-
-	function test(data) {
-		  var xml = "<?php echo $exemplo; ?>";
-		  console.log(xml);
-		  var markers = xml.documentElement.getElementsByTagName("marker");
-		  for (var i = 0; i < markers.length; i++) {
-		    var name = markers[i].getAttribute("name");
-		    var address = markers[i].getAttribute("address");
-		    var type = markers[i].getAttribute("type");
-		    var point = new google.maps.LatLng(
-		        parseFloat(markers[i].getAttribute("lat")),
-		        parseFloat(markers[i].getAttribute("lng")));
-		    var html = "<b>" + name + "</b> <br/>" + address;
-		    var icon = customIcons[type] || {};
-		    var marker = new google.maps.Marker({
-		      map: map,
-		      position: point,
-		      icon: icon.icon
-		    });
-		    bindInfoWindow(marker, map, infoWindow, html);
-		  }
-	}
 	
 	function loadScript() {
 	  var script = document.createElement('script');
 	  script.type = 'text/javascript';
 	  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp' +
 	      '&signed_in=true&callback=initialize&key=AIzaSyA2qRHzucl2AdPl1LaPh100e9IlDOvlZjE';
-
+      
 	  document.body.appendChild(script);
+
 	}
 
 	window.onload = loadScript;

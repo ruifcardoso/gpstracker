@@ -9,7 +9,7 @@
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/ui-darkness/jquery-ui.min.css" rel="stylesheet">
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
-<?= $this->Html->script('http://maps.google.com/maps/api/js?sensor=true', false); ?>
+<?php //echo $this->Html->script('http://maps.google.com/maps/api/js?sensor=true', false); ?>
 
 
 <script

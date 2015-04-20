@@ -31,7 +31,7 @@ class ElementsController extends AppController {
 		parent::beforeFilter();
 	
 		// For CakePHP 2.1 and up
-    	//$this->Auth->allow('index', 'view');
+    	$this->Auth->allow('index', 'view');
 		}
 /**
  * view method
@@ -41,6 +41,11 @@ class ElementsController extends AppController {
  * @return void
  */
 	public function view($id = null) {
+		echo "ola";
+		echo "<pre>";
+		print_r($this->request->params);
+		echo "</pre>";
+		echo "ola";
 		if (!$this->Element->exists($id)) {
 			throw new NotFoundException(__('Invalid element'));
 		}
@@ -53,6 +58,16 @@ class ElementsController extends AppController {
  *
  * @return void
  */
+	public function api_view(){
+				echo "ola";
+		echo "<pre>";
+		print_r($this->request->params);
+		echo "</pre>";
+		echo "ola";
+		die("marreu");
+		//http://gpstracker.local/api/elements/view/id:13/token:123123asdsae1341
+	}
+	
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Element->create();

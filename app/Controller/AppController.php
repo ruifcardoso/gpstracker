@@ -46,6 +46,21 @@ class AppController extends Controller {
 	public $helpers = array('GoogleMap','Html', 'Form', 'Session');
 	
 	public function beforeFilter() {
+		
+		if (isset($this->request->params['ext']) && $this->request->params['ext'] == 'json') {
+			$this->Auth->authenticate = array('Basic');
+			if (!$this->Auth->login()) {
+				$data = array (
+						'status' => 400,
+						'message' => $this->Auth->authError,
+				);
+				$this->set('data', $data);
+				$this->set('_serialize', 'data');
+			
+				$this->viewClass = 'Json';
+				$this->render();
+			}
+		}
 		//Configure AuthComponent
 		$this->Auth->loginAction = array(
 				'controller' => 'users',
@@ -59,6 +74,8 @@ class AppController extends Controller {
 				'controller' => 'homepages',
 				'action' => 'index'
 		);
+		$this->Auth->allow();
+		
 	}
 	
 }

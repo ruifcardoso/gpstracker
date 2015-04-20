@@ -1,7 +1,9 @@
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
+	<?php 
+	echo $this->element('gmap');
 	
-	<?php
+	/*
   // Override any of the following default options to customize your map
   $map_options = array(
     'id' => 'map_canvas',
@@ -12,8 +14,8 @@
     'type' => 'HYBRID',
     'draggableMarker' => false
   );
-?>
-	   <?= $this->GoogleMap->map($map_options); ?>
+
+	   echo $this->GoogleMap->map($map_options); */?>
 	
 	
 
@@ -31,20 +33,14 @@
 				<tbody>
 					<tr>
         <?php foreach($listPositions as $position){?>
-          <th class="text-center" scope="row"><?php echo $position['Position']['id']?> </th>
+          			<th class="text-center" scope="row"><?php echo $position['Position']['id']?> </th>
 						<td><?php echo $position['Position']['lat']?> </td>
 						<td><?php echo $position['Position']['long']?> </td>
 						<td><?php echo $position['Position']['time']?> </td>
 					</tr>
-					
-			<?php   $marker_options = array(
-				    'showWindow' => true,
-				    'windowText' => "Time: " . $position['Position']['time'],
-				    'markerTitle' => 'Id: ' . $position['Position']['id'] );
-          		echo $this->GoogleMap->addMarker("map_canvas", 1,
-         		 array('latitude'=> $position['Position']['lat'], 'longitude' => $position['Position']['long']), $marker_options);
-		         
-          }?>
+          <?php }?>
+          
+          
       </tbody>
 			</table>
 		</div>
