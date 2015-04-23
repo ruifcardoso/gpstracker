@@ -1,25 +1,7 @@
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
-	<?php 
-	echo $this->element('gmap');
-	
-	/*
-  // Override any of the following default options to customize your map
-  $map_options = array(
-    'id' => 'map_canvas',
-    'height' => '600px',
-    'style' => '',
-    'zoom' => 10,
-  	'localize' => true,
-    'type' => 'HYBRID',
-    'draggableMarker' => false
-  );
-
-	   echo $this->GoogleMap->map($map_options); */?>
-	
-	
-
-<div class="table-responsive table-container">
+	<?php echo $this->element ( 'gmap' );?>
+<div id="details-table" class="table-responsive table-container">
 			<h4>Detailed localization</h4>
 			<table class="table table-hover text-center">
 				<thead>
@@ -34,7 +16,7 @@
 				   <?php foreach($listPositions as $index=>$position){?>
 				
 					<tr data-href="#rowposition" data-id="<?php echo $index; ?>">
-          				<td id="id"><?php echo $position['Position']['id']?></td>
+						<td><?php echo $position['Position']['id']?></td>
 						<td id="lat"><?php echo $position['Position']['lat']?> </td>
 						<td id="lng"><?php echo $position['Position']['long']?> </td>
 						<td><?php echo $position['Position']['time']?> </td>
@@ -59,10 +41,8 @@ $(function(){
             function(){ 
                 $(this).removeClass('active'); 
             }).click( function(){ 
-                
-                console.log($(this).children("td#lat").html());
                 var pos = new google.maps.LatLng($(this).children("td#lat").html(),$(this).children("td#lng").html());
-  		        map.setCenter(pos);
+  		        map.panTo(pos);
 	  		    $('html, body').animate({
 	  		        scrollTop: $("#map-canvas").offset().top - 100
 	  		    }, 500);

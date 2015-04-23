@@ -7,6 +7,7 @@
 				    array('class' => 'navbar-brand', 'escape' => false)
 				);?>
 		</div>
+		
 		<div id="navbar" class="navbar-collapse collapse pull-right">
 			<ul class="nav navbar-nav">
 				<li><?php echo $this->Html->link('Home', array('controller' => 'homepages', 'action'=>'index'))?></li>

@@ -1,23 +1,25 @@
+<?php echo $this->element('elementsheader'); ?>
+
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
 		<h2><?php echo __('Elements'); ?></h2>
 		<table class="table table-hover text-center">
 			<thead>
 				<tr>
-					<th><?php echo $this->Paginator->sort('id'); ?></th>
-					<th><?php echo $this->Paginator->sort('description'); ?></th>
-					<th><?php echo $this->Paginator->sort('IMEI'); ?></th>
-					<th><?php echo $this->Paginator->sort('phonenumber'); ?></th>
-					<th><?php echo $this->Paginator->sort('color'); ?></th>
-					<th><?php echo $this->Paginator->sort('symbol'); ?></th>
-					<th><?php echo $this->Paginator->sort('created'); ?></th>
-					<th><?php echo $this->Paginator->sort('modified'); ?></th>
-					<th class="actions"><?php echo __('Actions'); ?></th>
+					<th class='text-center'><?php echo $this->Paginator->sort('id'); ?></th>
+					<th class='text-center'><?php echo $this->Paginator->sort('description'); ?></th>
+					<th class='text-center'><?php echo $this->Paginator->sort('IMEI'); ?></th>
+					<th class='text-center'><?php echo $this->Paginator->sort('phonenumber'); ?></th>
+					<th class='text-center'><?php echo $this->Paginator->sort('color'); ?></th>
+					<th class='text-center'><?php echo $this->Paginator->sort('symbol'); ?></th>
+					<th class='text-center'><?php echo $this->Paginator->sort('created'); ?></th>
+					<th class='text-center'><?php echo $this->Paginator->sort('modified'); ?></th>
+					<th class="text-center actions"><?php echo __('Actions'); ?></th>
 				</tr>
 			</thead>
 			<tbody>
 	<?php foreach ($elements as $element): ?>
-	<tr>
+	<tr data-href="#rowposition" data-id="<?php echo $element['Element']['id']; ?>">
 					<td><?php echo h($element['Element']['id']); ?>&nbsp;</td>
 					<td><?php echo h($element['Element']['description']); ?>&nbsp;</td>
 					<td><?php echo h($element['Element']['IMEI']); ?>&nbsp;</td>
@@ -27,44 +29,30 @@
 					<td><?php echo h($element['Element']['created']); ?>&nbsp;</td>
 					<td><?php echo h($element['Element']['modified']); ?>&nbsp;</td>
 					<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $element['Element']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $element['Element']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $element['Element']['id']), array(), __('Are you sure you want to delete # %s?', $element['Element']['id'])); ?>
+			<?php echo $this->Html->link('<i class="fa fa-search"></i>', array('action' => 'view', $element['Element']['id']), array('title'=>'View detailed information','id' => 'table-actions','escape'=>false)); ?>
+			<?php echo $this->Html->link('<i class="fa fa-pencil-square-o"></i>', array('action' => 'edit', $element['Element']['id']), array('title'=>'Edit element','id' => 'table-actions','escape'=>false)); ?>
+			<?php echo $this->Form->postLink('<i class="fa fa-times"></i>', array('action' => 'delete', $element['Element']['id']), array('title'=>'Delete element','id' => 'table-actions','escape'=>false), __('Are you sure you want to delete # %s?', $element['Element']['id'])); ?>
 		</td>
 				</tr>
 <?php endforeach; ?>
 	</tbody>
 		</table>
-		<p>
-	<?php
-	echo $this->Paginator->counter ( array (
-			'format' => __ ( 'Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}' ) 
-	) );
-	?>	</p>
-		<div class="paging">
-	<?php
-	echo $this->Paginator->prev ( '< ' . __ ( 'previous' ), array (), null, array (
-			'class' => 'prev disabled' 
-	) );
-	echo $this->Paginator->numbers ( array (
-			'separator' => '' 
-	) );
-	echo $this->Paginator->next ( __ ( 'next' ) . ' >', array (), null, array (
-			'class' => 'next disabled' 
-	) );
-	?>
-	</div>
 	</div>
 </div>
-<div class="row">
-	<div class="col-md-8 col-md-offset-2">
-		<div class="actions">
-			<h3><?php echo __('Actions'); ?></h3>
-			<ul>
-				<li><?php echo $this->Html->link(__('New Element'), array('action' => 'add')); ?></li>
-				<li><?php echo $this->Html->link(__('List Positions'), array('controller' => 'positions', 'action' => 'index')); ?> </li>
-				<li><?php echo $this->Html->link(__('New Position'), array('controller' => 'positions', 'action' => 'add')); ?> </li>
-			</ul>
-		</div>
-	</div>
-</div>
+
+<script>
+$(function(){
+    $('.table tr[data-href]').each(function(){
+        $(this).css('cursor','pointer').hover(
+            function(){ 
+                $(this).addClass('active'); 
+            },  
+            function(){ 
+                $(this).removeClass('active'); 
+            }).click( function(){
+            	window.location = "/elements/view/" + $(this).data("id");
+            }
+        );
+    });
+});
+</script>

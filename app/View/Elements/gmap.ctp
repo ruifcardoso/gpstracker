@@ -12,7 +12,6 @@
 	      mapOptions);
 
 
-
       //add databse locations
 		<?php foreach($listPositions as $position){ ?>
 		var location = new google.maps.LatLng(<?php echo $position['Position']['lat']; ?>, <?php echo $position['Position']['long']; ?>);
@@ -21,6 +20,18 @@
 		    position: location,
 		    map: map
 		});
+
+		var infowindow = new google.maps.InfoWindow({
+		      content: "<h5>Location details</h5> \
+			      <b>Id:</b> <?php echo $position['Position']['id']; ?> <br> \
+			      <b>Time:</b> <?php echo $position['Position']['time']; ?> <br> \
+		    	  <b>Latitude: </b><?php echo $position['Position']['lat']; ?><br> \
+		    	<b>Longetidude:</b> <?php echo $position['Position']['long']; ?> <br>"						      
+		  });
+
+		google.maps.event.addListener(marker, 'click', function() {
+		    infowindow.open(map,marker);
+		  });
 			
 	<?php } ?>
 	  if(navigator.geolocation) {

@@ -53,10 +53,15 @@ class PositionsController extends AppController {
 		if ($this->viewVars ['api_allowed'] && isset ( $this->viewVars ['api_json'] )) {
 			if (isset ( $this->viewVars ['api_json'] ['Data'] ['Position'] ['id'] )) {
 				$id = $this->viewVars ['api_json'] ['Data'] ['Position'] ['id'];
-				return $this->view ( $id );
-			} else {
-				return $this->view ( null );
 			}
+			if (!$this->Position->exists($id)) {
+				throw new NotFoundException(__('Invalid position'));
+			}
+			$options = array('conditions' => array('Position.' . $this->Position->primaryKey => $id), 'recursive' => -1);
+			$position = $this->Position->find('first', $options);
+			$this->set(array(
+					'position' => $position,
+					'_serialize' => 'position'));
 		}
 		// caso chegue até aqui, significa que ocorreu inicialmente algum erro;
 	}
@@ -65,7 +70,7 @@ class PositionsController extends AppController {
 		if (!$this->Position->exists($id)) {
 			throw new NotFoundException(__('Invalid position'));
 		}
-		$options = array('conditions' => array('Position.' . $this->Position->primaryKey => $id), 'recursive' => -1);
+		$options = array('conditions' => array('Position.' . $this->Position->primaryKey => $id));
 		$position = $this->Position->find('first', $options);
 		$this->set(array(
 				'position' => $position,

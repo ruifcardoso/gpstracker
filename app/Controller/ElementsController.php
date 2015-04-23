@@ -26,7 +26,7 @@ class ElementsController extends AppController {
 	 */
 	public function api_index() {
 		if ($this->viewVars ['api_allowed']) {
-			return $this->index();
+			return $this->index ();
 		}
 	}
 	public function index() {
@@ -38,7 +38,7 @@ class ElementsController extends AppController {
 		parent::beforeFilter ();
 		
 		// For CakePHP 2.1 and up
-		if(isset($this->viewVars['api_allowed']) && $this->viewVars['api_allowed'] == true ){
+		if (isset ( $this->viewVars ['api_allowed'] ) && $this->viewVars ['api_allowed'] == true) {
 			$this->Auth->allow ();
 		}
 		/*
@@ -52,33 +52,46 @@ class ElementsController extends AppController {
 	 * @param string $id        	
 	 * @return void
 	 */
-	
 	public function view($id = null) {
 		if (! $this->Element->exists ( $id )) {
 			throw new NotFoundException ( __ ( 'Invalid element id' ) );
 		}
-		$options = array (
-				'conditions' => array (
-						'Element.' . $this->Element->primaryKey => $id 
-				),
-				'recursive' => 0 
-		);
-		$this->set ( array (
-				'element' => $this->Element->find ( 'first', $options ),
-				'_serialize' => array (
-						'element' 
-				) 
-		) );
+		$options = array ('conditions' => array ('Element.' . $this->Element->primaryKey => $id),
+							'recursive' => 1 );
+		
+		/*
+		  'joins' => array(
+							array('table' => 'cars',
+									'alias' => 'tCar',
+									'type' => 'LEFT',
+									'conditions' => array(
+											'tCar.id = Sell.car_id'
+									)
+							)
+		 */
+		
+		$element = $this->Element->find('first', $options);
+		
+		
+		
+		/*echo "<pre>";
+		print_r($element);
+		echo "</pre>";*/
+		$this->set (array ('element' => $element,
+						'_serialize' => array ('element')));
 	}
 	
 	public function api_view() {
 		if ($this->viewVars ['api_allowed'] && isset ( $this->viewVars ['api_json'] )) {
 			if (isset ( $this->viewVars ['api_json'] ['Data'] ['Element'] ['id'] )) {
 				$id = $this->viewVars ['api_json'] ['Data'] ['Element'] ['id'];
-				return $this->view ( $id );
-			} else {
-				return $this->view ( null );
 			}
+			if (! $this->Element->exists ( $id )) {
+				throw new NotFoundException ( __ ( 'Invalid element id' ) );
+			}
+			$options = array ('conditions' => array ('Element.' . $this->Element->primaryKey => $id),'recursive' => 0);
+			$this->set (array ('element' => $this->Element->find ( 'first', $options ),
+								'_serialize' => array ('element')));
 		}
 		// caso chegue até aqui, significa que ocorreu inicialmente algum erro;
 	}
@@ -188,7 +201,6 @@ class ElementsController extends AppController {
 			}
 		}
 	}
-	
 	public function edit($id = null) {
 		if (! $this->Element->exists ( $id )) {
 			throw new NotFoundException ( __ ( 'Invalid element' ) );
@@ -264,7 +276,6 @@ class ElementsController extends AppController {
 			}
 		}
 	}
-	
 	public function delete($id = null) {
 		$this->Element->id = $id;
 		if (! $this->Element->exists ()) {

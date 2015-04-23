@@ -79,7 +79,7 @@ class Element extends AppModel {
 			'dependent' => false,
 			'conditions' => '',
 			'fields' => '',
-			'order' => '',
+			'order' => array('Position.time DESC'),
 			'limit' => '',
 			'offset' => '',
 			'exclusive' => '',

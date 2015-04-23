@@ -1,4 +1,6 @@
 <?php
+echo $this->element('elementsheader'); 
+
 echo $this->Form->create ( 'Element', array (
 		'class' => 'form-horizontal',
 		'role' => 'form',
@@ -35,7 +37,7 @@ echo $this->Form->create ( 'Element', array (
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 		<fieldset>
-			<legend><?php echo __('Add Element'); ?></legend>
+			<h3>Add Element</h3>
 	<?php
 	echo $this->Form->input ( 'description' );
 	echo $this->Form->input ( 'IMEI' );
