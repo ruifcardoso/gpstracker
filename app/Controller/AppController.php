@@ -20,6 +20,8 @@
  */
 
 App::uses('Controller', 'Controller');
+App::uses('AuthComponent', 'Controller/Component');
+
 
 /**
  * Application Controller
@@ -38,29 +40,161 @@ class AppController extends Controller {
         	'logoutRedirect' => array('controller' => 'users', 'action' => 'login'),
             'authorize' => array(
                 'Actions' => array('actionPath' => 'controllers')
-            )
+            ),
+        	'authenticate' => array(
+        			'Form' => array(
+        					'passwordHasher' => array(
+			                    'className' => 'Simple',
+			                    'hashType' => 'md5'
+			                )
+        			)
+        	)
         ),
         'Session'
     );
 	
-	public $helpers = array('GoogleMap','Html', 'Form', 'Session');
-	
+	public $helpers = array('Html', 'Form', 'Session');
+
 	public function beforeFilter() {
-		
-		if (isset($this->request->params['ext']) && $this->request->params['ext'] == 'json') {
+			parent::beforeFilter();
+			
+   			Security::setHash('md5');
+			$this->Auth->autoRedirect = false;
+
+			if (isset ( $this->request->params ['ext'] ) && $this->request->params ['ext'] == 'json') {
+				$this->Auth->authenticate = array (	'Basic'	);
+				$json = $this->request->input ( 'json_decode', true);
+				if($json && isset($json['Data']['User']['token']) && isset($json['Data']['User']['username'])){
+					$this->loadModel('User');
+					$user_exists = $this->User->find ( 'count', array (
+							'conditions' => array (
+									'User.username' => $json['Data']['User']['username'],
+									'User.api_token' => $json['Data']['User']['token']
+							)
+					) );
+					if ($user_exists == true) {
+						$this->set('api_allowed', true);
+						$this->set('api_json', $json);
+						$this->Auth->allow ();
+					} else {
+						$this->response->statusCode ( 200 );
+						$this->set ( array (
+								'Message' => array (
+										'text' => __ ( 'Wrong authentification.' ),
+										'type' => 'error'
+								),
+								'_serialize' => array (
+										'Message'
+								)
+						) );
+						$this->set('api_allowed', false);
+						$this->set('api_badauth', true);
+					}
+				} else {
+					if ($this->params ['controllers'] != 'users') {
+						$this->response->statusCode ( 200 );
+						$this->set ( array (
+								'Message' => array (
+										'text' => __ ( 'Missing information.' ),
+										'type' => 'error'
+								),
+								'_serialize' => array (
+										'Message'
+								)
+						) );
+					}
+					$this->set('api_allowed', false);
+					$this->set('api_badauth', false);					
+				}
+			}
+		/*if (isset($this->request->params['ext']) && $this->request->params['ext'] == 'json') {
+			//var_dump($this->request);
 			$this->Auth->authenticate = array('Basic');
-			if (!$this->Auth->login()) {
+			
+			/*if($this->Auth->login()){
+				$this->loadModel('User');
+				$user_exists = $this->User->find('first', array(
+						'conditions' => array('User.id' => $this->Auth->user ( 'id' ), 'User.api_token' => CakeSession::id ())
+				));
+				if($user_exists){
+					$this->Auth->allow();
+				}else{
+					$this->response->statusCode ( 200 );
+					$this->set ( array (
+							'message' => array (
+									'text' => __ ( 'Wrong authentification.' ),
+									'type' => 'error'
+							),
+							'_serialize' => array (
+									'message'
+							)
+					) );
+					return;
+				}
+			}else{
+				if(isset($this->params['named']['token'])){
+					$this->loadModel('User');
+					$user_exists = $this->User->find('first', array(
+							'conditions' => array('User.id' => $this->Auth->user ( 'id' ), 'User.api_token' => $this->params['named']['token'])
+					));
+					if($user_exists){
+						$this->Auth->allow();
+					}else{
+						$this->response->statusCode ( 200 );
+						$this->set ( array (
+								'message' => array (
+										'text' => __ ( 'Wrong authentification.' ),
+										'type' => 'error'
+								),
+								'_serialize' => array (
+										'message'
+								)
+						) );
+						return;
+					}
+				}else{
+					if($this->params['controllers'] != 'users'){						
+						$this->response->statusCode ( 200 );
+						$this->set ( array (
+								'message' => array (
+										'text' => __ ( 'Wrong authentification.' ),
+										'type' => 'error'
+								),
+								'_serialize' => array (
+										'message'
+								)
+						) );
+						$this->render('view');
+					}
+				}
+				
+			}*/
+			//AuthComponent::$sessionKey = false;
+			//if(!$this->Auth->login()){
+				/*if (!isset($_SERVER['PHP_AUTH_USER'])) {
+					header('WWW-Authenticate: Basic realm="My Realm"');
+					header('HTTP/1.0 401 Unauthorized');
+					echo 'Text to send if user hits Cancel button';
+					exit;
+				} else {
+					echo "<p>Hello {$_SERVER['PHP_AUTH_USER']}.</p>";
+					echo "<p>You entered {$_SERVER['PHP_AUTH_PW']} as your password.</p>";
+				}*/
+			//}
+				
+			//var_dump($this->request);
+			/*if (!$this->Auth->login()) {
 				$data = array (
 						'status' => 400,
 						'message' => $this->Auth->authError,
 				);
-				$this->set('data', $data);
-				$this->set('_serialize', 'data');
+				$this->set('Data', $data);
+				$this->set('_serialize', 'Data');
 			
 				$this->viewClass = 'Json';
 				$this->render();
-			}
-		}
+			}*/
+		//}
 		//Configure AuthComponent
 		$this->Auth->loginAction = array(
 				'controller' => 'users',
@@ -73,9 +207,7 @@ class AppController extends Controller {
 		$this->Auth->loginRedirect = array(
 				'controller' => 'homepages',
 				'action' => 'index'
-		);
-		$this->Auth->allow();
-		
+		);		
 	}
 	
 }

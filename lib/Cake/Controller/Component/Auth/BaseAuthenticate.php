@@ -100,7 +100,6 @@ abstract class BaseAuthenticate {
 				$model . '.' . $fields['username'] => $username
 			);
 		}
-
 		if (!empty($this->settings['scope'])) {
 			$conditions = array_merge($conditions, $this->settings['scope']);
 		}
@@ -110,11 +109,10 @@ abstract class BaseAuthenticate {
 			'recursive' => $this->settings['recursive'],
 			'contain' => $this->settings['contain'],
 		));
-		if (empty($result[$model])) {
-			$this->passwordHasher()->hash($password);
+		if (empty($result[$model])) {			
+			$this->passwordHasher()->hash($password);	
 			return false;
 		}
-
 		$user = $result[$model];
 		if ($password !== null) {
 			if (!$this->passwordHasher()->check($password, $user[$fields['password']])) {

@@ -31,11 +31,12 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-        <?php foreach($listPositions as $position){?>
-          			<th class="text-center" scope="row"><?php echo $position['Position']['id']?> </th>
-						<td><?php echo $position['Position']['lat']?> </td>
-						<td><?php echo $position['Position']['long']?> </td>
+				   <?php foreach($listPositions as $index=>$position){?>
+				
+					<tr data-href="#rowposition" data-id="<?php echo $index; ?>">
+          				<td id="id"><?php echo $position['Position']['id']?></td>
+						<td id="lat"><?php echo $position['Position']['lat']?> </td>
+						<td id="lng"><?php echo $position['Position']['long']?> </td>
 						<td><?php echo $position['Position']['time']?> </td>
 					</tr>
           <?php }?>
@@ -47,3 +48,26 @@
 
 	</div>
 </div>
+
+<script>
+$(function(){
+    $('.table tr[data-href]').each(function(){
+        $(this).css('cursor','pointer').hover(
+            function(){ 
+                $(this).addClass('active'); 
+            },  
+            function(){ 
+                $(this).removeClass('active'); 
+            }).click( function(){ 
+                
+                console.log($(this).children("td#lat").html());
+                var pos = new google.maps.LatLng($(this).children("td#lat").html(),$(this).children("td#lng").html());
+  		        map.setCenter(pos);
+	  		    $('html, body').animate({
+	  		        scrollTop: $("#map-canvas").offset().top - 100
+	  		    }, 500);
+            }
+        );
+    });
+});
+</script>

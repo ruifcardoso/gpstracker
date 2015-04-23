@@ -20,17 +20,16 @@ class PositionsController extends AppController {
  *
  * @return void
  */
+	public function api_index(){
+		if ($this->viewVars ['api_allowed']) {
+			return $this->index();
+		}
+	}
+	
 	public function index() {
-		$this->Position->recursive = 0;
-		$positions = $this->Position->find('all', array(
-				'fields' => array ('id','element_id','time','lat','long','address','created','modified')));
-		$this->set('elements', $this->Paginator->paginate());
-		
-		
-		$this->set(array(
-				'positions' => $positions,
-				'_serialize' => array('positions')
-		));
+		$this->Position->recursive = -1;
+		$this->set ( 'positions', $this->Paginator->paginate () );
+		$this->set ( '_serialize', 'positions' );
 		
 	}
 	
@@ -38,8 +37,10 @@ class PositionsController extends AppController {
 		parent::beforeFilter();
 
 		// For CakePHP 2.1 and up
-    	//$this->Auth->allow('index', 'view');
+		if(isset($this->viewVars['api_allowed']) && $this->viewVars['api_allowed'] == true ){
+			$this->Auth->allow ();
 		}
+	}
 
 /**
  * view method
@@ -48,11 +49,23 @@ class PositionsController extends AppController {
  * @param string $id
  * @return void
  */
+	public function api_view() {
+		if ($this->viewVars ['api_allowed'] && isset ( $this->viewVars ['api_json'] )) {
+			if (isset ( $this->viewVars ['api_json'] ['Data'] ['Position'] ['id'] )) {
+				$id = $this->viewVars ['api_json'] ['Data'] ['Position'] ['id'];
+				return $this->view ( $id );
+			} else {
+				return $this->view ( null );
+			}
+		}
+		// caso chegue até aqui, significa que ocorreu inicialmente algum erro;
+	}
+	
 	public function view($id = null) {	
 		if (!$this->Position->exists($id)) {
 			throw new NotFoundException(__('Invalid position'));
 		}
-		$options = array('conditions' => array('Position.' . $this->Position->primaryKey => $id));
+		$options = array('conditions' => array('Position.' . $this->Position->primaryKey => $id), 'recursive' => -1);
 		$position = $this->Position->find('first', $options);
 		$this->set(array(
 				'position' => $position,
@@ -64,6 +77,45 @@ class PositionsController extends AppController {
  *
  * @return void
  */
+	
+	public function api_add() {
+		if ($this->viewVars ['api_allowed'] && isset ( $this->viewVars ['api_json'] )) {
+			$newposition = $this->viewVars ['api_json'] ['Data'] ['Position'];
+			$this->Position->create ();
+			foreach ( $this->Position->_schema as $fieldname => $details ) {
+				$this->request->data [$fieldname] = isset ( $newposition [$fieldname] ) ? $newposition [$fieldname] : '';
+			}
+			unset ( $this->request->data ['created'] );
+			unset ( $this->request->data ['modified'] );
+			if ($this->Position->save ( $this->request->data )) {
+				$newposition ['id'] = $this->Position->getLastInsertID ();
+				$this->response->statusCode ( 200 );
+				$this->set ( array (
+						'Message' => array (
+								'text' => __ ( 'New position saved with id ' . $this->Position->getLastInsertID () ),
+								'type' => 'success'
+						),
+						'Position' => $newposition,
+						'_serialize' => array (
+								'Message',
+								'Position'
+						)
+				) );
+			} else {
+				$this->response->statusCode ( 200 );
+				$this->set ( array (
+						'Message' => array (
+								'text' => __ ( 'Error occurred while saving new position.' ),
+								'type' => 'error'
+						),
+						'_serialize' => array (
+								'Message'
+						)
+				) );
+			}
+		}
+	}
+	
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Position->create();
@@ -87,6 +139,48 @@ class PositionsController extends AppController {
  * @param string $id
  * @return void
  */
+	public function api_edit() {
+		if ($this->viewVars ['api_allowed'] && isset ( $this->viewVars ['api_json'] )) {
+			$newposition = $this->viewVars ['api_json'] ['Data'] ['Position'];
+			$this->Position->create ();
+			if ($this->Position->exists ( $newposition ['id'] )) {
+				foreach ( $this->Position->_schema as $fieldname => $details ) {
+					if (isset ( $newposition [$fieldname] )) {
+						$this->request->data [$fieldname] = $newposition [$fieldname];
+					}
+				}
+				unset ( $this->request->data ['created'] );
+				unset ( $this->request->data ['modified'] );
+				if ($this->Position->save ( $this->request->data )) {
+					$newposition ['id'] = $this->Position->id;
+					$this->response->statusCode ( 200 );
+					$this->set ( array (
+							'Message' => array (
+									'text' => __ ( 'Position ' . $this->Position->id . ' successfully edited' ),
+									'type' => 'success' 
+							),
+							'Position' => $newposition,
+							'_serialize' => array (
+									'Message',
+									'Position' 
+							) 
+					) );
+				} else {
+					$this->response->statusCode ( 200 );
+					$this->set ( array (
+							'Message' => array (
+									'text' => __ ( 'Error occurred while editing position.' ),
+									'type' => 'error' 
+							),
+							'_serialize' => array (
+									'Message' 
+							) 
+					) );
+				}
+			}
+		}
+	}
+	
 	public function edit($id = null) {
 		if (!$this->Position->exists($id)) {
 			throw new NotFoundException(__('Invalid position'));
@@ -115,6 +209,49 @@ class PositionsController extends AppController {
  * @param string $id
  * @return void
  */
+	public function api_delete() {
+		if ($this->viewVars ['api_allowed'] && isset ( $this->viewVars ['api_json'] )) {
+			if (isset ( $this->viewVars ['api_json'] ['Data'] ['Position'] ['id'] )) {
+				$id = $this->viewVars ['api_json'] ['Data'] ['Position'] ['id'];
+				$this->Position->id = $id;
+				if ($this->Position->delete ()) {
+					$this->response->statusCode ( 200 );
+					$this->set ( array (
+							'Message' => array (
+									'text' => __ ( 'Position ' . $id . ' successfully deleted.' ),
+									'type' => 'success'
+							),
+							'_serialize' => array (
+									'Message'
+							)
+					) );
+				} else {
+					$this->response->statusCode ( 200 );
+					$this->set ( array (
+							'Message' => array (
+									'text' => __ ( 'Position ' . $id . ' couldn\'t be deleted.' ),
+									'type' => 'error'
+							),
+							'_serialize' => array (
+									'Message'
+							)
+					) );
+				}
+			} else {
+				$this->response->statusCode ( 200 );
+				$this->set ( array (
+						'Message' => array (
+								'text' => __ ( 'Invalid position id.' ),
+								'type' => 'error'
+						),
+						'_serialize' => array (
+								'Message'
+						)
+				) );
+			}
+		}
+	}
+	
 	public function delete($id = null) {
 		$this->Position->id = $id;
 		if (!$this->Position->exists()) {
