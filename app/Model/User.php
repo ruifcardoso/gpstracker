@@ -15,9 +15,12 @@ class User extends AppModel {
 			) 
 	);
 	public function bindNode($user) {
+		//var_dump($user['User'] ['group_id']);
+		//echo "here";
+		//die();
 		return array (
 				'model' => 'Group',
-				'foreign_key' => $user ['User'] ['group_id'] 
+				'foreign_key' => ($user ['User'] ['group_id'])
 		);
 	}
 	public function parentNode() {

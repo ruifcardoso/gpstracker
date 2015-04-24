@@ -1,4 +1,4 @@
-<?php echo $this->element('elementsheader'); 
+<?php echo $this->element('bottomheader'); 
 
 echo $this->Form->create ( 'Element', array (
 		'class' => 'form-horizontal',

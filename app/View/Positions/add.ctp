@@ -1,4 +1,6 @@
 <?php
+echo $this->element('bottomheader');
+
 echo $this->Form->create ( 'Position', array (
 		'class' => 'form-horizontal',
 		'role' => 'form',
@@ -49,7 +51,7 @@ echo $this->Form->create ( 'Position', array (
 				'type' => 'text',
 				'after' => '<span class="add-on datetime"><span class="icon-calendar"></span></span></div>'
 		));
-
+		echo $this->Form->input('speed');
 		echo $this->Form->input('lat');
 		echo $this->Form->input('long');
 		echo $this->Form->input('address');
@@ -75,17 +77,9 @@ echo $this->Form->end ( array (
 $(document).ready(function(){
 	
 jQuery('#datetimepicker').datetimepicker({
-  format:'Y-m-s H:i:s',
-  onChangeDateTime:function(dp,$input){
-    $( '#datetimepicker' ).val($input.val());
-    
-  }
-
-
+	format:'Y-m-d H:i:s',
+  lang:'en'  
 	  });
-
-
-
 });
 
 </script>

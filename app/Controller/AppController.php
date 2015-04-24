@@ -106,6 +106,8 @@ class AppController extends Controller {
 					$this->set('api_allowed', false);
 					$this->set('api_badauth', false);					
 				}
+			}else{
+				$this->set('Acl', $this->Acl);
 			}
 		/*if (isset($this->request->params['ext']) && $this->request->params['ext'] == 'json') {
 			//var_dump($this->request);

@@ -37,13 +37,14 @@
 </head>
 <body>
 	<div id="container theme-showcase" role="main">	
-    <?php echo $this->Session->flash(); ?>
-   	<?php echo $this->Session->flash('auth'); ?>
+    <?php echo $this->Session->flash(); 
+   	 echo $this->Session->flash('auth');
     
-       <?php echo $this->element('header'); ?>
-    <?php echo $this->fetch('content'); ?>
+    echo $this->element('header');
+    echo $this->fetch('content'); ?>
   </div>
 <?php //echo $this->element('sql_dump'); ?>
+  <?php echo $this->element('sql_dump'); ?>
   
 </body>
 </html>

@@ -1,5 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
+App::uses('Sanitize', 'Utility'); // <---
+App::uses('JsBaseEngineHelper', 'View/Helper'); // <---
 /**
  * Positions Controller
  *
@@ -15,6 +17,35 @@ class PositionsController extends AppController {
  */
 	public $components = array('Paginator', 'RequestHandler');
 	
+	public function searchElement(){
+		
+		$layout = 'ajax'; //<-- No LAYOUT VERY IMPORTANT!!!!!
+		$this->autoRender = false;  // <-- NO RENDER THIS METHOD HAS NO VIEW VERY IMPORTANT!!!!!
+		
+		$this->Position->recursive = 0;
+		
+		$options = array(
+				'fields' => array('id','time','lat','long','speed','address','created','modified','element_id','Element.description'),
+				'order' => array('time' => 'DESC'),
+				'conditions' => array('Element.description LIKE' => '%'.Sanitize::clean($_GET["name"]).'%'),
+		);
+		
+		$this->Paginator->settings = $options;
+		
+		$result = $this->Paginator->paginate ('Position');
+		
+		//$input = $_GET["name"];
+		/*$jquerycallback = $_GET["callback"];
+		
+		$data['teste'] = array("ola"=>'adeus');
+		
+		//echo $this->JsBaseEngineHelper->object($result,array('prefix' => $jquerycallback.'({"totalResultsCount": 2,"ajt":','postfix' => '});'));
+		$this->set(compact('data'));
+		$this->set('_serialize', $data); // Let the JsonView class know what variable to use
+		*/
+		echo json_encode($result);
+	}
+	
 /**
  * index method
  *
@@ -27,7 +58,11 @@ class PositionsController extends AppController {
 	}
 	
 	public function index() {
-		$this->Position->recursive = -1;
+		$this->Position->recursive = 0;
+		$this->Paginator->settings = array(
+				'fields' => array('id','time','lat','long','speed','address','created','modified','element_id','Element.description'),
+				'order' => array('time' => 'DESC')
+		);
 		$this->set ( 'positions', $this->Paginator->paginate () );
 		$this->set ( '_serialize', 'positions' );
 		
@@ -35,7 +70,8 @@ class PositionsController extends AppController {
 	
 	public function beforeFilter() {
 		parent::beforeFilter();
-
+		$this->Auth->Allow('searchElement');
+		
 		// For CakePHP 2.1 and up
 		if(isset($this->viewVars['api_allowed']) && $this->viewVars['api_allowed'] == true ){
 			$this->Auth->allow ();
@@ -124,6 +160,7 @@ class PositionsController extends AppController {
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Position->create();
+			var_dump($this->request->data);
 			if ($this->Position->save($this->request->data)) {
 				$this->Session->setFlash(__('The position has been saved.'));				
 				return $this->redirect(array('action' => 'index'));

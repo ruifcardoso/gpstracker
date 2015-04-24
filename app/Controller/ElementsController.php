@@ -31,6 +31,9 @@ class ElementsController extends AppController {
 	}
 	public function index() {
 		$this->Element->recursive = 0;
+		$this->Paginator->settings = array(
+				'order' => array('modified' => 'DESC')
+		);
 		$this->set ( 'elements', $this->Paginator->paginate () );
 		$this->set ( '_serialize', 'elements' );
 	}

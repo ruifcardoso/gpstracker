@@ -1,4 +1,4 @@
-<?php echo $this->element('elementsheader'); ?>
+<?php echo $this->element('bottomheader'); ?>
 
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
@@ -6,14 +6,22 @@
 		<table class="table table-hover text-center">
 			<thead>
 				<tr>
-					<th class='text-center'><?php echo $this->Paginator->sort('id'); ?></th>
-					<th class='text-center'><?php echo $this->Paginator->sort('description'); ?></th>
-					<th class='text-center'><?php echo $this->Paginator->sort('IMEI'); ?></th>
-					<th class='text-center'><?php echo $this->Paginator->sort('phonenumber'); ?></th>
-					<th class='text-center'><?php echo $this->Paginator->sort('color'); ?></th>
-					<th class='text-center'><?php echo $this->Paginator->sort('symbol'); ?></th>
-					<th class='text-center'><?php echo $this->Paginator->sort('created'); ?></th>
-					<th class='text-center'><?php echo $this->Paginator->sort('modified'); ?></th>
+					<th class='text-center'><?php echo $this->Paginator->sort('id',
+							'Id &nbsp;<i class="fa fa-sort"></i>', array('escape'=>false));?> </th>
+					<th class='text-center'><?php echo $this->Paginator->sort('description',
+							'Description &nbsp;<i class="fa fa-sort"></i>', array('escape'=>false));?> </th>
+					<th class='text-center'><?php echo $this->Paginator->sort('IMEI',
+							'IMEI &nbsp;<i class="fa fa-sort"></i>', array('escape'=>false));?> </th>
+					<th class='text-center'><?php echo $this->Paginator->sort('phonenumber',
+							'Phone Number &nbsp;<i class="fa fa-sort"></i>', array('escape'=>false));?> </th>
+					<th class='text-center'><?php echo $this->Paginator->sort('color',
+							'Color &nbsp;<i class="fa fa-sort"></i>', array('escape'=>false));?> </th>
+					<th class='text-center'><?php echo $this->Paginator->sort('symbol',
+							'Symbol &nbsp;<i class="fa fa-sort"></i>', array('escape'=>false));?> </th>
+					<th class='text-center'><?php echo $this->Paginator->sort('created',
+							'Created &nbsp;<i class="fa fa-sort"></i>', array('escape'=>false));?> </th>
+					<th class='text-center'><?php echo $this->Paginator->sort('modified',
+							'Modified &nbsp;<i class="fa fa-sort"></i>', array('escape'=>false));?> </th>
 					<th class="text-center actions"><?php echo __('Actions'); ?></th>
 				</tr>
 			</thead>
@@ -37,6 +45,28 @@
 <?php endforeach; ?>
 	</tbody>
 		</table>
+	<p>
+	<?php
+	echo $this->Paginator->counter ( array (
+			'format' => __ ( 'Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}' ) 
+	) );
+	?>	</p>
+<?php if($this->Paginator->params['count'] > 1){?>
+<nav>
+  <ul class="pagination">
+    <?php echo $this->Paginator->prev(__('<span aria-hidden="true">&laquo;</span>'), array('tag' => 'li', 'escape' => true),
+    		 null,
+    		 array('tag' => 'li','class' => 'disabled','disabledTag' => 'a', 'escape' => false));
+    ?>
+    <?php echo $this->Paginator->numbers(array('separator' => '','currentTag' => 'a', 'currentClass' => 'active','tag' => 'li','first' => 1));
+    ?>
+    <?php echo $this->Paginator->next(__('<span aria-hidden="true">&raquo;</span>'), array('tag' => 'li', 'escape' => false),
+    		 null,
+    		 array('tag' => 'li','class' => 'disabled','disabledTag' => 'a', 'escape' => false));
+    ?>
+  </ul>
+</nav>
+<?php }?>
 	</div>
 </div>
 

@@ -48,6 +48,7 @@ nav#newheader.navbar {
     color : white;
     padding-left: 120px;
     margin-bottom: 30px;
+    border: 0px;
 }
 nav#newheader.navbar > ul > li > a{
 	color: white;
@@ -55,6 +56,11 @@ nav#newheader.navbar > ul > li > a{
 	text-shadow: 2px 2px 2px #A9A9A9;
 	border-left: thin solid #e6e6e6; 
 }
+
+nav#newheader.navbar > ul > li.active{
+	background-color: #e6e6e6; 
+}
+
 nav#newheader.navbar > ul > li:first-child > a{
 	border-left: none; 
 }

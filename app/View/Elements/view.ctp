@@ -1,4 +1,4 @@
-<?php echo $this->element('elementsheader'); 
+<?php echo $this->element('bottomheader'); 
 ?>
 <div class="view-container">
 	<div class="row">
@@ -34,6 +34,7 @@
 					<th class="text-center">Id</th>
 					<th class="text-center">Address</th>
 					<th class="text-center">Time</th>
+					<th class="text-center">Speed</th>
 					<th class="text-center">Lat</th>
 					<th class="text-center">Long</th>
 					<th class="actions text-center"><?php echo __('Actions'); ?></th>
@@ -41,10 +42,11 @@
 				</thead>
 				<tbody>
 	<?php foreach ($element['Position'] as $position): ?>
-		<tr>
+		<tr data-href="#rowposition" data-id="<?php echo $position['id']; ?>">
 						<td><?php echo $position['id']; ?></td>
 						<td><?php echo $position['address']; ?></td>
 						<td><?php echo $position['time']; ?></td>
+						<td><?php echo $position['speed']; ?></td>
 						<td><?php echo $position['lat']; ?></td>
 						<td><?php echo $position['long']; ?></td>
 						<td class="actions">
@@ -60,3 +62,19 @@
 		</div>
 	</div>
 </div>
+<script>
+$(function(){
+    $('.table tr[data-href]').each(function(){
+        $(this).css('cursor','pointer').hover(
+            function(){ 
+                $(this).addClass('active'); 
+            },  
+            function(){ 
+                $(this).removeClass('active'); 
+            }).click( function(){ 
+            	window.location = "/positions/view/" + $(this).data("id");
+            }
+        );
+    });
+});
+</script>
