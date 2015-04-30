@@ -17779,3 +17779,33 @@ Stack Trace:
 #3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-04-27 09:59:56 Error: Fatal Error (1): Call to undefined method PositionsController::element() in [/home/cmdesktop/workspace/gpstracker/app/Controller/PositionsController.php, line 52]
+2015-04-27 09:59:56 Error: [FatalErrorException] Call to undefined method PositionsController::element()
+Request URL: /positions/searchElement?type=time&txt=2015-04-27+10%3A59%3A56
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/cmdesktop...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/cmdesktop...', 52, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/cmdesktop...', 52, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 09:59:58 Error: Fatal Error (1): Call to undefined method PositionsController::element() in [/home/cmdesktop/workspace/gpstracker/app/Controller/PositionsController.php, line 52]
+2015-04-27 09:59:58 Error: [FatalErrorException] Call to undefined method PositionsController::element()
+Request URL: /positions/searchElement?type=time&txt=2015-04-28+10%3A59%3A56
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/cmdesktop...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/cmdesktop...', 52, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/cmdesktop...', 52, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 09:59:59 Error: Fatal Error (1): Call to undefined method PositionsController::element() in [/home/cmdesktop/workspace/gpstracker/app/Controller/PositionsController.php, line 52]
+2015-04-27 09:59:59 Error: [FatalErrorException] Call to undefined method PositionsController::element()
+Request URL: /positions/searchElement?type=time&txt=2015-04-28+10%3A59%3A56
+Stack Trace:
+#0 /home/cmdesktop/workspace/gpstracker/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/cmdesktop...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/cmdesktop...', 52, Array)
+#2 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/cmdesktop...', 52, Array)
+#3 /home/cmdesktop/workspace/gpstracker/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

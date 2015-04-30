@@ -23,17 +23,24 @@ class PositionsController extends AppController {
 		$this->autoRender = false;  // <-- NO RENDER THIS METHOD HAS NO VIEW VERY IMPORTANT!!!!!
 		
 		$this->Position->recursive = 0;
-		
+		if($_GET["type"] == "time"){
+			$conditions = array('DATE(time)' => Sanitize::clean($_GET["txt"]));
+		}elseif($_GET["type"] == "name"){
+			$conditions = array('Element.description LIKE' => '%'.Sanitize::clean($_GET["txt"]).'%');
+		}else{
+			return;
+		}
 		$options = array(
 				'fields' => array('id','time','lat','long','speed','address','created','modified','element_id','Element.description'),
 				'order' => array('time' => 'DESC'),
-				'conditions' => array('Element.description LIKE' => '%'.Sanitize::clean($_GET["name"]).'%'),
+				'conditions' => $conditions,
 		);
+		//var_dump($options);
+		//estava a ver porque o date(time) nao funciona
 		
 		$this->Paginator->settings = $options;
 		
 		$result = $this->Paginator->paginate ('Position');
-		
 		//$input = $_GET["name"];
 		/*$jquerycallback = $_GET["callback"];
 		
@@ -43,6 +50,7 @@ class PositionsController extends AppController {
 		$this->set(compact('data'));
 		$this->set('_serialize', $data); // Let the JsonView class know what variable to use
 		*/
+				
 		echo json_encode($result);
 	}
 	

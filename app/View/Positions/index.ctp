@@ -3,11 +3,21 @@
 
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
-		<div class="form-group">
-		    <label>Element name search</label>
-		    <input type="text" class="form-control" id="searchTxt" placeholder="Search by element name...">
+		<div id="search-index">
+			<h2>Search</h2>
+			<div class="col-md-6">
+				<div class="form-group">
+				    <label>By element name: </label>
+				    <input type="text" class="form-control" id="searchTxt" placeholder="Search by element name...">
+			  	</div>
+		  	</div>
+	  		<div class="col-md-6">
+				<div class="form-group">
+				    <label>By creation time: </label>
+				    <input type="text" class="form-control" id="searchTime" placeholder="Search by creation date...">
+			  	</div>
+		  	</div>
 	  	</div>
-  
 		<h2><?php echo __('Positions'); ?></h2>
 		<table class="table table-hover text-center">
 			<thead>
@@ -92,29 +102,35 @@ $(function(){
             }
         );
     });
+    
     $('#searchTxt').keyup(function () {
-        //console.log($(this).val());
-    	searchElement($(this).val());
+    	searchElement("name",$(this).val());
     });
 
-	function searchElement (txt){
-		//console.log(txt);
-		//console.log("<?php echo Router::url(array('controller' => 'positions', 'action' => 'searchElement')); ?>");
+    	
+    $('#searchTime').datetimepicker({
+		format:'Y-m-d H:i:s',
+    	lang:'en',
+		onChangeDateTime:function(dp,$input){
+			console.log($input.val());
+			searchElement("time",$input.val());
+		} 
+    });
+
+	function searchElement (type,txt){
+		console.log(txt);
 		$.ajax({
 		    url: "<?php echo Router::url(array('controller' => 'positions', 'action' => 'searchElement')); ?>",
-		    //dataType: "jsonp",
-	        //contentType:    'application/json',
 	        data: {
-	            name: txt
+		        type: type,
+	            txt: txt
 	        },
 	        success: function( data ) {
 		        var json = JSON.parse(data);
-		        $('#table-body').html("");
-		        
-		        //$('#table-body').para().replaceWith(
+		        var content = "";
 		        json.forEach(function (entry){
-			        addPosition(entry)});
-		        //data.position
+			        content += addRow(entry)});
+		        $('#table-body').html(content);
 		     },error: function (jqxhr,textStatus,errorThrown) {
 		    	 console.log(jqxhr);
                  console.log(textStatus);
@@ -123,10 +139,25 @@ $(function(){
 		});
 	}
 
-	function addPosition(position){
-        //$('#table-body').html("<tr><td id='someid'>I am here</td><td>asdsad</td></tr>");
-		
-		$('tr:first').after("<tr><td id='someid'>I am here</td><td>asdsad</td></tr>");
+	function addRow(position){
+        var entry = "<tr data-href='#rowposition' data-id='+ position['Position']['id'] +'> \
+            <td>" + position['Position']['id'] +"&nbsp;</td> \
+            <td><a href='/positions/view/" + position['Position']['element_id'] + "' title='View element information'</a>" + position['Element']['description'] +"&nbsp;</td> \
+            <td>" + position['Position']['time'] +"&nbsp;</td> \
+			<td>" + position['Position']['speed'] + " &nbsp;</td> \
+			<td>" + position['Position']['lat'] + "&nbsp;</td> \
+			<td>" + position['Position']['long'] + "&nbsp;</td> \
+			<td>" + position['Position']['address'] + "&nbsp;</td> \
+			<td>" + position['Position']['created'] + "&nbsp;</td> \
+			<td>" + position['Position']['modified'] + "&nbsp;</td> \
+			<td><a href='/positions/view/" + position['Position']['id'] + "' title='View detailed information' id='table-actions'><i class='fa fa-search'></i></a> \
+			<a href='/positions/edit/" + position['Position']['id'] + "' title='Edit element' id='table-actions'><i class='fa fa-pencil-square-o'></i></a> \
+			<form action='/positions/delete/"+ position['Position']['id']+ "' name='post_" + position['Position']['id'] + "' id='post_" + position['Position']['id'] + "' style='display:none;' method='post'><input type='hidden' name='_method' value='POST'></form> \
+			<a href='#' title='Delete element' id='table-actions' onclick='if (confirm(&quot;Are you sure you want to delete # " + position['Position']['id'] + "?&quot;)){ post_" + position['Position']['id'] +".submit(); } event.returnValue = false; return false;'<i class='fa fa-times'></i></a> \
+			</td></tr>"; 
+
+		return entry;
+
 	}
 	
 });
